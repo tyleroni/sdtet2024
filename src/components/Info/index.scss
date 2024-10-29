@@ -1,0 +1,893 @@
+.info-vid-container {
+    text-align: center;
+    margin: -19px 0px 0px 0px;
+}
+
+.visitor-background {
+    float:center;
+    object-fit: cover;
+    width: 2100px;
+    height: 600px;
+    z-index: 0;
+}
+.visitor-header {
+    font-family: 'Mogi';
+    color: #FEFAE6;
+    font-size: 48pt;
+    font-weight: 500;
+    z-index: 1;
+}
+
+.visitor-img-container {
+    text-align: center;
+    width: 100%;
+    margin: -22em 0px 0px 0px;
+}
+
+
+.admission-hours {
+    font-family: 'Grotesque Black';
+    font-size: 36pt;
+    padding-top: 6em;
+    padding-left: 12.3vw;
+}
+
+.dragon-container {
+    display: flex;
+    width: 200%;
+}
+
+.dragon {
+    padding-left: 10em;
+    margin-top: -2em;
+}
+
+.hours-container {
+    padding-top: 2em;
+    padding-left: 4em;
+}
+
+.free-admission {
+    font-family: "Grotesque Black" ;
+    color: #f14830;
+    font-size: 24pt;
+}
+
+.p1-info {
+    font-family: 'Instrument Sans';
+    font-size: 14pt;
+    font-weight: 600;
+}
+
+.hours-box {
+    background-color: #FDF1D8;
+    opacity: 100%;
+    margin-top: 3em;
+}
+
+.hours{
+    font-family: 'Grotesque Black';
+    font-size: 16pt;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.date {
+    font-family: 'Instrument Sans';
+    font-size: 14pt;
+    font-weight: 500;
+}
+
+.time {
+    font-family: 'Instrument Sans';
+    font-size: 14pt;
+    position: relative;
+    text-align: right;
+}
+
+.friday-time {
+    padding-left: 10em;
+}
+
+.date-time {
+    display: flex;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.saturday-time {
+    padding-left: 8.6em;
+}
+
+.festival-time {
+    padding-left: 12.5em;
+}
+.carnival-time {
+    padding-left: 12.5em;
+}
+
+.festival {
+    color: #f14830;
+}
+.carnival {
+    color: #f14830;
+}
+
+.directions-container {
+    background-color: #FBC33C;
+    margin-top: 3em;
+    padding-top: 3em;
+    
+}
+
+.directions {
+    font-family: 'Grotesque Black';
+    padding-left: 12.3vw;
+    
+    font-size: 36pt;
+}
+
+.img-container {
+    text-align: center;
+    padding-top: 2em;
+    margin-left: -9vw;
+}
+
+
+.address-container {
+    margin-left: 12.3vw;
+}
+
+.address-parking-container {
+    display: flex;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.address {
+    font-family: 'Grotesque Black';
+    font-size: 24pt;
+    
+}
+
+.paragraph {
+    font-family: 'Instrument Sans';
+    font-size: 15pt;
+    text-wrap: wrap;
+}
+
+.direction-break {
+    margin-left: 4em;
+    margin-right: 4em;
+    
+}
+
+.parking-p {
+    max-width: 48vw;
+    text-wrap: wrap;
+    padding-bottom: 1em;
+}
+
+.h1 {
+    font-family: 'Grotesque Black';
+    margin-left: 12.3vw;
+    
+    font-size: 30pt;
+}
+
+.rules-container {
+    display:flex;
+    padding-left: 250px;
+    padding-top: 1.5em;
+    font-family: 'Instrument Sans';
+    font-size: 18pt;
+    font-weight: 600;
+    padding-bottom: 3em;
+}
+
+.rules {
+    color: #f14830;
+}
+
+.rules span {
+    color: black;
+}
+
+
+.rules-p {
+    padding-top: 1em;
+    margin-left: -15px;
+}
+
+.festival-section {
+    padding-top: 3em;
+    
+}
+
+.asset {
+    margin-top: 0em;
+    padding-left: 10em;
+}
+
+.festival-highlights-section {
+    background-color: #FBC33C;
+    padding-top: 3em;
+}
+
+.festival-highlights {
+    padding-bottom: 1em;
+}
+
+.highlights-container {
+    display: flex;
+    margin-left: 11.1vw;
+    margin-right:8.8vw;
+    padding-bottom: 2em;
+}
+
+.card-h2 {
+    font-family: 'Grotesque Black';
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-highlight {
+    padding-left: 1.5em;
+}
+
+.sample {
+    max-width: 100%;
+    height:auto;
+}
+
+.sample-highlight {
+    max-width: 100%;
+    height:auto;
+}
+
+.faq-section {
+    display: flex;
+}
+
+.faq {
+    padding-top: 1em;
+    padding-right: 2em;
+}
+
+.lantern2 {
+    position: relative;
+    top:-5.5em;
+    padding-right: 4em;
+    
+}
+
+
+.accordion {
+    background-color: #FDF1D8;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    margin-right: 50em;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #f8e7c3;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: #fcf3e1;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    
+    
+    }
+    .accordion:after {
+        content: '\02795'; /* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        color: black;
+        float: right;
+        margin-left: 5px;
+      }
+      
+      .active:after {
+        content: "\2796"; /* Unicode character for "minus" sign (-) */
+        color: black;
+      }
+
+.faq-container {
+    margin-top: 9em;
+    margin-left: 7em;
+    padding-bottom: 4em;
+}
+
+.instagram-section {
+    background-color: #FEFAE6;
+    padding-top: 3em;
+    margin-bottom: 5vh;
+}
+
+.sdtf-p {
+    margin-left: 12.3vw;
+    margin-bottom: 4vh;
+}
+
+.sdtf-img-container {
+    margin-left: 12.3vw;
+    padding-bottom: 4vh;
+}
+
+.insta-img {
+    padding-right: 4vw;
+}
+
+.vendor {
+    font-size: 24pt;
+    margin-top: 1vh;
+}
+
+.performance {
+    font-size: 24pt;
+    margin-top: 1vh;
+}
+
+.miss-vietnamh2 {
+    font-size: 24pt;
+    margin-top: 0vh;
+}
+
+@media screen and (max-width: 1601px) {
+    .visitor-header {
+        margin-top: 13vh;
+    }
+    .visitor-background {
+        max-width: 100%;
+        object-fit: contain;
+        overflow: hidden;
+    }
+    .admission-hours {
+        padding-top: 20vh;
+    }
+    .dragon {
+        padding-left: 7.5vw;
+    }
+
+    .map {
+        padding-left: 2vw;
+    }
+    .insta-img {
+        padding-right: 1vw;
+        scale: 90%;
+    }
+    .sdtf-img-container {
+        margin-left: 11.5vw;
+        padding-bottom: 4vh;
+    }
+}
+
+@media screen and (max-width: 1441px) {
+    .visitor-header {
+        margin-top: 15vh;
+    }
+    .dragon {
+        padding-left: 3vw;
+    }
+    .admission-hours {
+        padding-left: 8vw;
+    }
+    .directions{
+        padding-left: 8vw;
+    }
+    .address-container {
+        margin-left: 8vw;
+    }
+    .festival-rules {
+        margin-left: 7vw;
+    }
+    .rules-container {
+        padding-left: 10vw;
+    }
+
+    .performance {
+        font-size: 21pt;
+    }
+    .performances {
+        padding-right: 3vw;
+    }
+    .miss-vietnam {
+        padding-right: 3vw;
+        font-size: 21pt;
+    }
+    .festival-highlights {
+        margin-left: 7vw;
+    }
+    .highlights-container{
+        margin-left: 7vw;
+    }
+    .vendor {
+        font-size: 21pt;
+    }
+    .vendors2{
+        padding-right: 1vw;
+    }
+    .sdtf-p {
+        margin-left: 8vw;
+    }
+    .sdtf {
+        margin-left: 8vw;
+    }
+    .insta-img {
+        padding-right: .3vw;
+        scale: 90%;
+    }
+    .sdtf-img-container {
+        margin-left: 7vw;
+        padding-bottom: 4vh;
+    }
+    .card-highlight {
+        padding-left: auto;
+        padding-right: auto;
+    }
+}
+
+@media screen and (max-width: 1367px) {
+    
+    .visitor-header {
+        margin-top: 17vh;
+        font-size: 40pt;
+    }
+    .dragon {
+        padding-left: 0vw;
+        padding-top: 5vh;
+        max-width: 630px;
+        height:auto;
+    }
+    .admission-hours {
+        padding-left: 7vw;
+        font-size: 32pt;
+        margin-bottom: 0vh;
+    }
+    .directions{
+        padding-left: 7vw;
+    }
+    .address-container {
+        margin-left: 7vw;
+    }
+    .festival-rules {
+        margin-left: 7vw;
+    }
+    .rules-container {
+        padding-left: 9vw;
+    }
+    .asset {
+        padding-left: 5vw;
+    }
+    .performance {
+        font-size: 21pt;
+    }
+    .performances {
+        padding-right: 2vw;
+    }
+    .miss-vietnam {
+        padding-right: 3vw;
+        font-size: 21pt;
+    }
+    .festival-highlights {
+        margin-left: 7vw;
+    }
+    .highlights-container{
+        margin-left: 7vw;
+    }
+    .vendor {
+        font-size: 21pt;
+    }
+    .vendors{
+        padding-right: 1vw;
+    }
+    .sdtf-p {
+        margin-left: 8vw;
+    }
+    .sdtf {
+        margin-left: 8vw;
+    }
+    .insta-img {
+        padding-right: 0vw;
+        max-width: 290px;
+        height: auto;
+    }
+    .sdtf-img-container {
+        margin-left: 7vw;
+        padding-bottom: 4vh;
+    }
+}
+@media screen and (max-width: 1281px) {
+    .visitor-header {
+        margin-top: 18vh;
+        font-size: 40pt;
+    }
+    .dragon {
+        margin-left: 2vw;
+        padding-top: 10vh;
+        width: 22%; 
+        height: auto;
+    }
+    .dragon-container {
+        margin-top: -5vh;
+    }
+    .admission-hours {
+        padding-left: 7vw;
+        margin-bottom: 0;
+        font-size: 28pt;
+    }
+    .directions {
+        font-size: 28pt;
+    }
+    .festival-rules {
+        font-size: 28pt;
+    }
+    .festival-highlights {
+        font-size: 28pt;
+    }
+    .sdtf {
+        font-size: 28pt;
+    }
+    .hours-container {
+        padding-left: .5vw;
+    }
+    .asset {
+        padding-left: 5vw;
+        padding-top: 5vh;
+        max-width: 80%;
+        height: auto;
+    }
+    .highlights-container {
+        margin-left: 7vw;
+    }
+    .insta-img {
+        padding-right: 0vw;
+        max-width: 270px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1025px) {
+    .visitor-header {
+        margin-top: 22vh;
+        font-size: 40pt;
+    }
+    .dragon {
+        margin-left: 1vw;
+        padding-top: 10vh;
+        padding-right: 4vw;
+        width: 25%; 
+        height: auto;
+    }
+    .admission-hours {
+        padding-left: 6vw;
+        padding-top: 10vh;
+    }
+    .free-admission{
+        font-size: 22pt;
+    }
+    .hours-container {
+        margin-left: -6vw;
+    }
+    .friday-time {
+        padding-left: 6.4em;
+    }
+    
+    .date-time {
+        display: flex;
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+    .saturday-time {
+        padding-left: 5em;
+    }
+    
+    .festival-time {
+        padding-left: 8.9em;
+    }
+    .carnival-time {
+        padding-left: 8.65em;
+    }
+    .date{
+        font-size: 14pt;
+    }
+    .time {
+        font-size: 14pt;
+    }
+    .directions{
+        padding-left: 6vw;
+    }
+    .address-container {
+        margin-left: 6vw;
+    }
+    .paragraph {
+        font-size: 12pt;
+    }
+    .address{
+        font-size:24pt;
+        margin: 1vh 0vw;
+    }
+    .festival-rules {
+        margin-left: 6vw;
+    }
+    .rules {
+        font-size: 16pt;
+    }
+    .rules-container {
+        padding-left: 9vw;
+    }
+
+    .asset {
+        scale:90%;
+    }
+
+    .performance {
+        font-size: 18pt;
+    }
+    .performances {
+        padding-right: 1vw;
+    }
+    .miss-vietnam {
+        padding-right: 1.5vw;
+        font-size: 18pt;
+    }
+    .festival-highlights {
+        margin-left: 6vw;
+    }
+    .highlights-container{
+        margin-left: 6vw;
+    }
+    .vendor {
+        font-size: 18pt;
+    }
+    .vendors{
+        padding-right: .5vw;
+    }
+    .sdtf-p {
+        margin-left: 6vw;
+    }
+    .sdtf {
+        margin-left: 6vw;
+    }
+    .insta-img {
+        padding-right: 0vw;
+        max-width: 230px;
+        height: auto;
+    }
+    .sdtf-img-container {
+        margin-left: 5vw;
+        padding-bottom: 4vh;
+    }
+}
+@media screen and (max-width: 821px) {
+    .visitor-header{
+        margin-top: 24vh;
+    }
+    .dragon {
+        justify-content: center;
+        width: 75%;
+        padding-top: 0vh;
+        margin-top: 2vh;
+    }
+    .dragon-container {
+        display: block;
+        text-align: center;
+        width: 100%
+    }
+    .hours-container {
+        margin-left: 6vw;
+        max-width: 85%;
+        text-align: left;
+        padding-top: 0vh;
+    }
+    .time {
+        flex: 1;
+    }
+    .asset {
+        padding-left: 2vw;
+    }
+    .rules {
+        font-size: 14pt;
+    }
+    .rules-p {
+        font-size: 14pt;
+    }
+    .address {
+        font-size: 20pt;
+    }
+    .address-p {
+        font-size: 12pt;
+    }
+    .parking-container {
+        margin-right: 5vw;
+    }
+    .highlights-container {
+        display: block;
+        text-align: center;
+    }
+    .card-highlight {
+        padding-left: 0vw;
+    }
+    .performance-img {
+        width: 80%;
+    }
+    .performance {
+        font-size: 24pt;
+        text-align: left;
+        margin-left: 8vw;
+    }
+    .missvietnam-img {
+        width: 80%;
+    }
+    .miss-vietnamh2 {
+        font-size:24pt;
+        text-align: left;
+        margin-left: 8vw;
+    }
+    .vendor-img {
+        width: 80%;
+    }
+    .vendor {
+        font-size: 24pt;
+        text-align: left;
+        margin-left: 8vw;
+    }
+    .sample {
+        max-width: 100%;
+        width: 45%;
+    }
+}
+
+
+
+@media screen and (max-width: 602px) {
+    .visitor-header{
+        font-size: 32pt;
+        margin-top: 28vh;
+    }
+    .visitor-background {
+        object-fit:cover;
+    }
+    .admission-hours {
+        font-size: 24pt;
+    }
+    .directions {
+        font-size: 24pt;
+    }
+    .ping {
+        width: 35%;
+    }
+    .car {
+        width: 35%;
+    }
+    .rules-container {
+        flex-direction: column-reverse;
+        padding-top: 0vh;
+    }
+    .asset {
+        padding-top: 0vh;
+    }
+    .festival-rules {
+        font-size: 24pt;
+    }
+    .festival-highlights {
+        font-size: 24pt;
+    }
+    .h2 {
+        font-size: 18pt;
+    }
+    .sdtf {
+        font-size: 24pt;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .visitor-background {
+        width: 100%;
+        object-position: center;
+        height: 600px;
+        scale: 200%;
+        z-index: 1;
+        margin-top: 5.3vh;
+        position: relative;
+    }
+    .visitor-header {
+        z-index: 1;
+        position: relative;
+        font-size: 28pt;
+    }
+    .admission-hours {
+        font-size: 20pt;
+        margin-bottom: 3vh;
+    }
+    .free-admission {
+        font-size: 18pt;
+    }
+    .p1-info {
+        font-size: 12pt;
+    }
+    .date {
+        font-size: 12pt;
+    }
+    .time {
+        padding-left: 0vw;
+        font-size: 12pt;
+    }
+    .date-time {
+        padding: 0vh 6vw;
+    }
+    .directions {
+        font-size: 20pt;
+    }
+    .h2 {
+        font-size: 14pt;
+    }
+    .car {
+        width: 30%;
+
+    }
+    .paragraph {
+        font-size: 12pt;
+    }
+    .sdtf-p {
+        padding-right: 7vw;
+    }
+    .direction-break {
+        margin-left: 0vw;
+        margin-right: 1vw;
+    }
+    .address-container {
+        width: 100%;
+        max-width: 40%;
+        padding-right: 2vw;
+        
+    }
+    .parking-container {
+        margin-left: 2vw;
+    }
+    .rules {
+        font-size: 12pt;
+    }
+}
+
+@media screen and (max-width: 394px) {
+    .visitor-background {
+        margin-top: 5.1vh;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .visitor-background {
+        margin-top: 4vh;
+    }
+    .visitor-header {
+        margin-top: 29vh;
+    }
+    .admission-hours {
+        padding-top: 5vh;
+    }
+    .date {
+        font-size: 10pt;
+    }
+    .time {
+        font-size: 10pt;
+    }
+    .paragraph {
+        font-size: 10pt;
+    }
+    .rules {
+        font-size: 10pt;
+    }
+}

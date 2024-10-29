@@ -1,0 +1,1036 @@
+.schedule-header-container {
+    position: relative;
+    text-align: center;
+    top: -33vh;
+}
+
+.schedule-banner-section {
+    margin-top: -2.1vh;
+}
+
+.schedule-performance-section {
+    text-align: center;
+    position: relative;
+    top:-12vh;
+}
+
+.schedule-section {
+    margin-top: -7vh;
+    margin-bottom: 10vh;
+}
+
+.schedule-header {
+    margin-bottom: 0vh;
+}
+
+.schedule-h2 {
+    margin-top: 0vh;
+    margin-bottom: 5vh;
+    font-size: 24pt;
+}
+
+.schedule-key-container {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 7vh;
+}
+
+.key-container {
+    display:flex;
+    padding:2vh 1vw;
+}
+
+.key-header {
+    font-family: 'Grotesque Black';
+    font-size: 18pt;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    padding-left: 1vw;
+}
+
+.performance-location {
+    margin-bottom: 5vh;
+    font-family: 'Grotesque Black';
+    font-size: 30pt;
+    color: #281B01;
+}
+
+.schedule-dates-container {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    margin-left: .3vw;
+}
+
+.event-dates {
+    font-family: 'Grotesque Black';
+    margin: 0vh 1.5vw;
+    max-width: 21%;
+}
+
+.dates-header {
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+.headliner-schedule {
+    background-color: #3C8410;
+    color: white;
+}
+
+.dates-header2 {
+    font-size: 30pt;
+    font-family: 'Grotesque Black';
+}
+
+.dates-header3 {
+    font-size: 20pt;
+    margin: 0;
+    font-family: 'Grotesque Black';
+}
+
+
+.times {
+    font-family: 'Instrument Sans';
+    display: flex;
+    font-size: 14pt;
+    margin-left: 2vw;
+    margin-top: 0vh;
+    margin-bottom: -2vh;
+    max-height: 10vh;
+    align-items: center;
+}
+
+.times1 {
+    font-family: 'Instrument Sans';
+    display: flex;
+    font-size: 14pt; 
+    margin-top: 2vh;
+    margin-bottom: -1.7vh;
+    width: 19.5vw;
+}
+
+
+
+.times-time {
+    text-align: right;
+    margin: .5rem;
+    width: 100px;
+    flex: none;
+}
+.times-time1 {
+    text-align: left;
+    margin: .5rem;
+}
+
+.times-event {
+    margin-left: 1vw;
+    text-wrap: wrap;
+    max-width: 65%;
+    text-align: left;
+}
+
+.dates-header-container {
+    position: relative;
+    top: 0vh;
+}
+
+.sunday-header {
+    padding-bottom: -1vh;
+    margin-bottom: 1vh;
+}
+
+
+.mainstage-container {
+    background-color: #FAC9B5;
+    border-bottom: 2px solid black;
+}
+
+.mainstage-header {
+    font-size: 30pt;
+    font-family: 'Grotesque Black';  
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: .5vh 0vw;
+}
+
+.schedule-times-container {
+    //display: flex;
+    text-align: center;
+    max-width: 100%;
+    border:2px solid black;
+    padding-bottom: 4vh;
+    margin-bottom: 2vh;
+    margin-left: 20.1vw;
+    margin-right: 20.1vw;
+    margin-top: 5vh;
+}
+
+.schedule-container3 {
+    display:flex;
+    justify-content: center;
+}
+
+.fri-times-container {
+    //margin-right: .5vw;
+    //border-left: 1px solid black;
+    border-right: 2px solid black;
+    margin-bottom: -4vh;
+}
+
+.sat-times-container {
+    margin-right: 0vw;
+    margin-bottom: -2vh;
+}
+
+.sun-times-container {
+    padding-left: 0; 
+    margin-bottom: -4vh;
+    border-left: 2px solid black;
+}
+
+.cultural-village-header-container {
+    font-family: 'Grotesque Black';
+    font-size: 18pt;
+    background-color: #FCE7AC;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 2vh;
+}
+
+.cultural-village-header {
+    margin-top: .5vh;
+    margin-bottom: .5vh;
+}
+
+.mainstage-header-container {
+    font-family: 'Grotesque Black';
+    font-size: 18pt;
+    background-color: #FAC9B5;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.mainstage-headerr {
+    margin-top: .5vh;
+    margin-bottom: .5vh;
+}
+.responsive-schedule {
+    display: none;
+}
+
+@media screen and (max-width: 2040px) {
+    .schdule-banner-img {
+        object-fit: fill;
+    }
+    .schedule-banner-container {
+        width: 100vw;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .schdule-banner-img {
+        max-width: 100%;
+        height: auto;
+    }
+    .schedule-times-container {
+        padding-bottom: 4vh;
+        margin-bottom: 2vh;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        margin-top: 5vh;
+    }
+    .times1 {
+        width: 23.2vw;
+    }
+}
+
+@media screen and (max-width: 1367px) {
+    .schedule-header {
+        margin-top: 12vh;
+        font-size: 40pt;
+    }
+    .schedule-h2 {
+        font-size: 24pt;
+    }
+    .header1 {
+        margin-top: 3vh;
+    }
+    .schdule-banner-img {
+        max-width: 100%;
+        height: auto;
+    }
+    .schedule-times-container {
+        padding-bottom: 4vh;
+        margin-bottom: 2vh;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        margin-top: 5vh;
+    }
+    .times1 {
+        width: 23.2vw;
+    }
+    .times-time {
+        font-size: 13pt;
+    }
+    .times-time1 {
+        font-size: 13pt;
+    }
+    .mainstage-header {
+        font-size: 28pt;
+    }
+    .cultural-village-header {
+        font-size: 24pt;
+    }
+}
+
+@media screen and (max-width: 1281px) {
+    .schedule-header {
+        margin-top: 12vh;
+    }
+    .header1 {
+        margin-top: 3vh;
+    }
+    .schdule-banner-img {
+        max-width: 100%;
+        height: auto;
+    }
+    .schedule-dates-container {
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+    .dates-header2 {
+        font-size: 28pt;
+    }
+    .dates-header3 {
+        font-size: 20pt;
+    }
+    .schedule-times-container {
+        padding-bottom: 4vh;
+        margin-bottom: 2vh;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        margin-top: 5vh;
+    }
+    .times1 {
+        width: 23.2vw;
+    }
+    .times-time {
+        font-size: 13pt;
+        margin-left: 0;
+    }
+    .times-time1 {
+        font-size: 13pt;
+    }
+    .mainstage-header {
+        font-size: 28pt;
+    }
+    .cultural-village-header {
+        font-size: 24pt;
+    }
+}
+@media screen and (max-width: 1025px) {
+    .schedule-header {
+        margin-top: 15vh;
+    }
+    .header1 {
+        margin-top: 3vh;
+    }
+    .schdule-banner-img {
+        max-width: 100%;
+        height: auto;
+    }
+    .schedule-dates-container {
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+    .dates-header2 {
+        font-size: 24pt;
+    }
+    .dates-header3 {
+        font-size: 18pt;
+    }
+    .schedule-times-container {
+        padding-bottom: 4vh;
+        margin-bottom: 2vh;
+        margin-left: 12vw;
+        margin-right: 12vw;
+        margin-top: 5vh;
+    }
+    .times1 {
+        width: 25.1vw;
+    }
+    .times-time {
+        font-size: 13pt;
+    }
+    .times-time1 {
+        font-size: 13pt;
+    }
+    .mainstage-header {
+        font-size: 24pt;
+    }
+    .cultural-village-header {
+        font-size: 20pt;
+    }
+}
+@media screen and (max-width: 821px) {
+    .schedule-header {
+        margin-top: 18vh;
+    }
+    .header1 {
+        margin-top: -5vh;
+        font-size: 36pt;
+        width: 60vw;
+    }
+    .schedule-h2 {
+        font-size: 20pt;
+    }
+    .schedule-key-container {
+        justify-content: space-between;
+        max-width: 70vw;
+        margin-left: 5vw;
+    }
+    .key-container {
+        width: 33vw;
+    }
+    .headlinerkey {
+        max-width: 18vw;
+    }
+    .culturalkey {
+        max-width: 18vw;
+        width: 18vw;
+    }
+    .mainstagekey {
+        max-width: 18vw;
+        width: 18vw;
+    }
+    .schdule-banner-img {
+        margin-top: 3.2vh;
+        max-width: 100%;
+        height: auto;
+        scale: 130%;
+    }
+    .key-header {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 18pt;
+    }
+    .schedule-dates-container {
+        margin-left: 4vw;
+        margin-right: 10vw;
+        justify-content: space-between;
+    }
+    .event-dates {
+        padding: 0vh 0vw;
+        margin: 0vh 2vw;
+        flex-grow: 1;
+    }
+    .dates-header {
+        width: 25vw;
+    }
+    .dates-header2 {
+        font-size: 24pt;
+    }
+    .dates-header3 {
+        font-size: 18pt;
+    }
+    .schedule-times-container {
+        padding-bottom: 4vh;
+        margin-bottom: 2vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: 5vh;
+    }
+    .times-container {
+        width: 33.3vw;
+    }
+    .times1 {
+        width: 29.7vw;
+    }
+    .times-time {
+        font-size: 12pt;
+    }
+    .times-time1 {
+        font-size: 12pt;
+    }
+    .mainstage-header {
+        font-size: 24pt;
+    }
+    .cultural-village-header {
+        font-size: 20pt;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .schedule-header {
+        margin-top: 20vh;
+    }
+    .header1 {
+        margin-top: -5vh;
+        font-size: 32pt;
+        width: 60vw;
+    }
+    .performance-location {
+        font-size: 28pt;
+    }
+
+    .schedule-key-container {
+        justify-content: space-between;
+        max-width: 70vw;
+        margin-left: 8vw;
+    }
+    .key-container {
+        width: 33vw;
+    }
+    .headlinerkey {
+        max-width: 18vw;
+    }
+    .culturalkey {
+        max-width: 18vw;
+        width: 18vw;
+    }
+    .mainstagekey {
+        max-width: 18vw;
+        width: 18vw;
+    }
+    .schdule-banner-img {
+        margin-top: 3vh;
+        max-width: 100%;
+        height: auto;
+        scale: 130%;
+    }
+    .key-header {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: 14pt;
+    }
+    .schedule-dates-container {
+        margin-left: 4vw;
+        margin-right: 12vw;
+        justify-content: space-between;
+    }
+    .event-dates {
+        padding: 0vh 0vw;
+        margin: 0vh 2vw;
+        flex-grow: 1;
+    }
+    .dates-header {
+        width: 25vw;
+    }
+    .dates-header2 {
+        font-size: 20pt;
+    }
+    .dates-header3 {
+        font-size: 14pt;
+    }
+    .schedule-times-container {
+        padding-bottom: 4vh;
+        margin-bottom: 2vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: 5vh;
+    }
+    .times-container {
+        width: 33.3vw;
+    }
+    .times1 {
+        width: 29.7vw;
+    }
+    .times-time {
+        font-size: 12pt;
+        width: 10vw;
+    }
+    .times-time1 {
+        font-size: 12pt;
+        
+    }
+    .mainstage-header {
+        font-size: 24pt;
+    }
+    .cultural-village-header {
+        font-size: 20pt;
+    }
+}
+
+@media screen and (max-width: 602px) {
+    .schedule-header {
+        margin-top: 10vh;
+    }
+    .header1 {
+        margin-top: 0vh;
+        font-size: 28pt;
+        width: 60vw;
+    }
+    .schdule-banner-img {
+        display:none
+    }
+    .performance-location {
+        font-size: 24pt;
+    }
+
+    .schedule-key-container {
+        max-width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .key-container {
+        align-items: center;
+        width: 50vw;
+        margin-left: 3vw;
+    }
+    .headlinerkey {
+        max-width: 18vw;
+        max-height: 8vw;
+        height: 8vw;
+    }
+    .culturalkey {
+        max-width: 18vw;
+        max-height: 8vw;
+        height: 8vw;
+    }
+    .mainstagekey {
+        max-width: 18vw;
+        max-height: 8vw;
+        height: 8vw;
+    }
+    .schdule-banner-imgr {
+        max-width: 100%;
+        width: 100vw;
+        height: auto;
+        scale: 100%;
+    }
+    .key-header {
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-left: 5vw;
+        font-size: 18pt;
+    }
+    .nonresponsive-schedule {
+        display: none;
+    }
+    .responsive-schedule {
+        display: block;
+    }
+    .schedule-container {
+        display: flex;
+        width: 100vw;
+    }
+    .fri-section {
+        margin-bottom: 15vh;
+    }
+    .fri-mainstage-container {
+        margin-left: 5vw;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        padding-bottom: 2vh;
+    }
+    .fri-cultural-container {
+        border-right: 2px solid  black;
+        padding-bottom: 2vh;
+    }
+    .sat-mainstage-container {
+        margin-left: 5vw;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        padding-bottom: 2vh;
+    }
+    .sat-cultural-container {
+        border-right: 2px solid black;
+        padding-bottom: 2vh;
+    }
+    .sun-mainstage-container {
+        margin-left: 5vw;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        padding-bottom: 2vh;
+    }
+    .sun-cultural-container {
+        border-right: 2px solid black;
+        padding-bottom: 2vh;
+    }
+    .times-container {
+        width: 45vw;
+    }
+    .times1 {
+        margin-left: 0vw;
+        width: 45vw;
+    }
+    .times-time {
+        font-size: 12pt;
+        width: 13vw;
+    }
+    .cultural-village-header {
+        font-size: 20pt;
+        text-align: center;
+    }
+    .cultural-village-header-container {
+        margin-top: 0vh;
+    }
+    .mainstage-header-container {
+        text-align: center;
+    }
+    .mainstage-headerr {
+        font-size: 20pt;
+        text-align: center;
+
+    }
+    .sun-section {
+        margin-bottom: 15vh;
+    }
+    .schedule-h2 {
+        font-size: 18pt;
+        max-width: 75vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+
+
+
+
+
+
+    .event-dates {
+        padding: 0vh 0vw;
+        margin: 0vh 2vw;
+        flex-grow: 1;
+    }
+    .dates-header {
+        width: 25vw;
+    }
+    .dates-header2 {
+        font-size: 28pt;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100vw;
+    }
+    .dates-header3 {
+        font-size: 20pt;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3vh;
+        width: 100vw;
+    }
+    .schedule-times-container {
+        padding-bottom: 4vh;
+        margin-bottom: 2vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: 5vh;
+    }
+    
+    .times-time1 {
+        font-size: 12pt;
+        
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .schedule-header {
+        margin-top: 15vh;
+    }
+    .schdule-banner-img {
+        display:none
+    }
+    .header1 {
+        margin-top: -5vh;
+        font-size: 20pt;
+        width: 90vw;
+    }
+    .schedule-h2 {
+        font-size: 14pt;
+        max-width: 75vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .performance-location {
+        font-size: 20pt;
+    }
+    .schedule-h2 {
+        margin-bottom: 0vh;
+    }
+
+    .schedule-key-container {
+        max-width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+
+    }
+    .key-container {
+        width: 70vw;
+        margin-left: 20vw;
+        align-items: left;
+    }
+    .headlinerkey {
+        max-width: 18vw;
+        max-height: 8vw;
+        height: 8vw;
+    }
+    .culturalkey {
+        max-width: 18vw;
+        max-height: 8vw;
+        height: 8vw;
+        
+    }
+    .mainstagekey {
+        max-width: 18vw;
+        max-height: 8vw;
+        height: 8vw;
+    }
+    .key-header {
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-left: 5vw;
+        font-size: 14pt;
+    }
+
+    .schedule-container {
+        display: flex;
+        width: 100vw;
+    }
+    .fri-section {
+        margin-bottom: 15vh;
+    }
+    .fri-mainstage-container {
+        margin-left: 5vw;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        padding-bottom: 2vh;
+    }
+    .fri-cultural-container {
+        border-right: 2px solid  black;
+        padding-bottom: 2vh;
+    }
+    .sat-mainstage-container {
+        margin-left: 5vw;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        padding-bottom: 2vh;
+    }
+    .sat-cultural-container {
+        border-right: 2px solid black;
+        padding-bottom: 2vh;
+    }
+    .sun-mainstage-container {
+        margin-left: 5vw;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        padding-bottom: 2vh;
+    }
+    .sun-cultural-container {
+        border-right: 2px solid black;
+        padding-bottom: 2vh;
+    }
+    .times-container {
+        width: 45vw;
+    }
+    .times1 {
+        margin-left: 0vw;
+        width: 45vw;
+    }
+    .times-time {
+        font-size: 10pt;
+        width: 15vw;
+    }
+    .times-time1 {
+        font-size: 10pt;
+        
+    }
+    .cultural-village-header {
+        font-size: 18pt;
+        text-align: center;
+    }
+    .cultural-village-header-container {
+        margin-top: 0vh;
+    }
+    .mainstage-headerr {
+        font-size: 20pt;
+        text-align: center;
+    }
+    .sun-section {
+        margin-bottom: 15vh;
+    }
+    .event-dates {
+        padding: 0vh 0vw;
+        margin: 0vh 2vw;
+        flex-grow: 1;
+    }
+    .dates-header {
+        width: 25vw;
+    }
+    .dates-header2 {
+        font-size: 24pt;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100vw;
+    }
+    .dates-header3 {
+        font-size: 16pt;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3vh;
+        width: 100vw;
+    }
+    .schedule-times-container {
+        padding-bottom: 4vh;
+        margin-bottom: 2vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: 5vh;
+    }
+    .mainstage-headerr {
+        font-size: 18pt;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .schedule-header {
+        margin-top: 18vh;
+    }
+    .schdule-banner-img {
+        display:none
+    }
+    .header1 {
+        margin-top: -5vh;
+        font-size: 18pt;
+        width: 200px;
+    }
+    .schedule-h2 {
+        font-size: 12pt;
+        max-width: 75vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .performance-location {
+        font-size: 18pt;
+    }
+
+    .headlinerkey {
+        max-width: 18vw;
+        max-height: 8vw;
+        height: 8vw;
+    }
+    .culturalkey {
+        max-width: 18vw;
+        max-height: 8vw;
+        height: 8vw;
+        
+    }
+    .mainstagekey {
+        max-width: 18vw;
+        max-height: 8vw;
+        height: 8vw;
+    }
+    .key-header {
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-left: 5vw;
+        font-size: 14pt;
+    }
+
+    .schedule-container {
+        display: flex;
+        width: 100vw;
+    }
+    .fri-section {
+        margin-bottom: 15vh;
+    }
+    .fri-mainstage-container {
+        margin-left: 5vw;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        padding-bottom: 2vh;
+    }
+    .fri-cultural-container {
+        border-right: 2px solid  black;
+        padding-bottom: 2vh;
+    }
+    .sat-mainstage-container {
+        margin-left: 5vw;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        padding-bottom: 2vh;
+    }
+    .sat-cultural-container {
+        border-right: 2px solid black;
+        padding-bottom: 2vh;
+    }
+    .sun-mainstage-container {
+        margin-left: 5vw;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+        padding-bottom: 2vh;
+    }
+    .sun-cultural-container {
+        border-right: 2px solid black;
+        padding-bottom: 2vh;
+    }
+    .times-container {
+        width: 45vw;
+    }
+    .times1 {
+        margin-left: 0vw;
+        width: 45vw;
+    }
+    .times-time {
+        font-size: 10pt;
+        width: 15vw;
+    }
+    .times-time1 {
+        font-size: 10pt;
+        
+    }
+    .cultural-village-header {
+        font-size: 16pt;
+        text-align: center;
+    }
+    .cultural-village-header-container {
+        margin-top: 0vh;
+    }
+    .mainstage-headerr {
+        font-size: 20pt;
+        text-align: center;
+    }
+    .sun-section {
+        margin-bottom: 15vh;
+    }
+    .event-dates {
+        padding: 0vh 0vw;
+        margin: 0vh 2vw;
+        flex-grow: 1;
+    }
+    .dates-header {
+        width: 25vw;
+    }
+    .dates-header2 {
+        font-size: 24pt;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100vw;
+    }
+    .dates-header3 {
+        font-size: 16pt;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3vh;
+        width: 100vw;
+    }
+    .schedule-times-container {
+        padding-bottom: 4vh;
+        margin-bottom: 2vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-top: 5vh;
+    }
+    
+    
+    .mainstage-headerr {
+        font-size: 16pt;
+    }
+}

@@ -1,0 +1,1705 @@
+.homevideo-container{
+    text-align: center;
+    margin: -19px 0px 0px 0px;
+    z-index: 2;
+    background-color: black;
+}
+
+.header-container {
+    margin:-34em 0em 0em 0em;
+    z-index: 2;
+    text-align:center;
+}
+.header-info{
+    font-size: 24pt;
+    color: #FEFAE6;
+    font-family: 'Instrument Sans';
+    padding-top: 1em;
+}
+.header-info2{
+    font-size: 12pt;
+    color: #FEFAE6;
+    font-family: 'Instrument Sans';
+    padding-top: 11em;
+}
+
+.newyear-container {
+    display: flex;
+}
+
+.lantern {
+    
+    
+    margin-top: -4.4vh;
+    scale: 83%;
+    z-index: -1;
+    
+}
+.newyear-section{
+    position:relative;
+    margin-top:2vh;
+}
+
+.p-container {
+    max-width: 70%;
+}
+
+
+.newyear {
+    font-family: 'Grotesque Black';
+    padding-left: 15vw;
+    padding-top: 1em;
+    font-size: 36pt;
+    margin: 0vh 0px 0px 0px;
+}
+
+.homep1{
+    margin-left: 15vw;
+    margin-right: 2vw;
+}
+
+.newyear-sub{
+    padding-top:0em;
+    padding-bottom: .5em;
+    font-size: 24pt;
+}
+.p1{
+    font-size: 14pt;
+    font-family: 'Instrument Sans';
+    line-height: 1.8em;
+}
+
+.horizontal-container{
+    text-align: center;
+    margin: 5em;
+}
+
+//.enigmatic {
+//    text-align: center;
+//    scale: 100%;
+//    margin-left: -2.5em;
+//}
+
+#horizontal-wrapper {
+    height: 350vh;
+    //overflow:hidden;
+    position:relative;
+    
+}
+
+#horizontal-wrapper .inner{
+    width:350vw;
+    height:100vh;
+}
+
+#horizontal-wrapper.sticky .inner{
+    position:fixed;
+    top:0;
+    bottom:auto;
+}
+
+#horizontal-wrapper-wrapper.post-sticky.inner {
+    position:absolute;
+    top:auto;
+    bottom:0;
+}
+
+#horizontal-wrapper .inner div{
+    float:center;
+    width:20%;
+  }
+.inner {
+    display:flex;
+}
+
+.ny-card{
+    padding: 12em 14.8em 10em 14.7em;
+    
+}
+
+.ricecake-block{
+    margin: 0em 0em;
+}
+
+.string {
+    position:relative;
+    top: 3em;
+    width: 105%;
+}
+
+.card {
+    padding: 0em 4em;
+    position:relative;
+    
+}
+.card1 {
+    top: -3vh;
+    margin-left: 18em;
+    
+}
+.card2 {
+    top:2vh;
+    
+}
+.card3 {
+    top:-8vh;
+    
+}
+.card4 {
+    top:-20vh;
+    
+}
+
+.decoration {
+    position: relative;
+    margin-top: 5vh;
+}
+
+.decoration1 {
+    scale: 110%;
+    top: -7em;
+    left: 14em;
+}
+
+.decoration2 {
+    scale: 110%;
+    float:right;
+    top: -13em;
+    right: 14em;
+}
+.sponsor-container {
+    position: relative;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 3vw;
+    width: 100%;
+}
+
+.sponsorh1{
+    width: 50%;
+    display: block;
+    text-align: center;
+    font-family: 'Grotesque Black';
+    font-weight: bolder;
+    margin-left: 20vw;
+    margin-top: -3em;
+    margin-bottom: 10vh;
+    font-size: 36pt;
+}
+
+.border {
+    position: relative;
+    margin-top: -4em;
+    margin-left: 19em;
+}
+.sponsors-icon-container {
+    display:flex;
+}
+
+.icon-container {
+    display: grid;
+    position: relative;
+    margin-top:-36em;
+    left: 23em;
+    padding: 0em 2em;
+}
+
+.icon {
+    padding: 1em 0em;
+    scale: 70%;
+    justify-content: center;
+}
+
+.kingfish {
+    padding-left: 2em;
+}
+
+.citysd {
+    padding-top: 3em;
+}
+
+.dentist {
+    padding-top: 0;
+}
+
+.regal {
+    padding-top: 3vh;
+}
+
+.br {
+    height: 100px;
+}
+
+.sponsor-icon:hover {
+    display:inline-block;
+    -ms-transform: scale(1.5, 1.5); /* IE 9 */
+    -webkit-transform: scale(1.5, 1.5); /* Safari */
+    transform: scale(1.5, 1.5);
+}
+
+.dentistnone {
+    display: none;
+}
+.sponsor-icon-container-responsive {
+    display:none; 
+}
+
+.carousel {
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-slides {
+    display: flex;
+    transition: transform .5s ease;
+    margin-top: 15vh;
+    margin-left: 0vw;
+}
+
+.slide {
+    min-width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18pt;
+
+}
+.controls a {
+    font-family: 'Grotesque Black';
+    font-size: 22pt;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 1px;
+    background-color: #D2512F;
+  }
+  
+  .controls a:hover {
+    border: 1px solid #D2512F;
+    background-color: transparent;
+    color: #D2512F;
+}
+.controls {
+    margin-top: 13vh;
+    margin-left: -1vw;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel-image {
+    max-width: 70%;
+    height: auto;
+    
+}
+.prev{
+    margin-top: 6vh;
+    margin-left: 4vw;
+    margin-bottom: 2vh;
+    padding: .6em 1.5em;
+    border-radius: 25pt;
+}
+.next {
+    margin-top: 6vh;
+    margin-left: 4vw;
+    margin-bottom: 2vh;
+    padding: .6em 2.3em;
+    border-radius: 25pt;
+}
+.carousel1 {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: none;
+}
+
+.carousel-slides1 {
+    display: flex;
+    transition: transform .5s ease;
+    margin-top: 15vh;
+    margin-left: 0vw;
+}
+
+.slide1 {
+    min-width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18pt;
+
+}
+.controls1 a {
+    font-family: 'Grotesque Black';
+    font-size: 22pt;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 1px;
+    background-color: #D2512F;
+  }
+  
+  .controls1 a:hover {
+    border: 1px solid #D2512F;
+    background-color: transparent;
+    color: #D2512F;
+}
+.controls1 {
+    margin-top: 13vh;
+    margin-left: -1vw;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel-image1 {
+    height: 100%;
+
+    
+}
+.prev1 {
+    margin-top: 4vh;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+    padding: .6em 1.5em;
+    border-radius: 25pt;
+}
+.next1 {
+    margin-top: 4vh;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+    padding: .6em 2.3em;
+    border-radius: 25pt;
+}
+.card-container-responsive {
+    display:none;
+}
+
+@media screen and (min-width: 2050px) {
+    
+}
+
+@media screen and (max-width: 1921px) {
+    .newyear {
+        font-family: 'Grotesque Black';
+        padding-left: 13vw;
+        padding-top: 0em;
+        font-size: 36pt;
+        margin: 0vh 0px 0px 0px;
+    }
+    .homep1 {
+        margin-left: 13vw;
+    }
+    .carousel-image {
+        max-width: 73%;
+        height: auto;
+    }
+    .string {
+        position:relative;
+        margin-top: 2em;
+        width: 105%;
+    }
+    
+    .card {
+        padding: 0em 4em;
+        position:relative;
+        
+    }
+    .card1 {
+        top: 17vh;
+        margin-left: 18em;
+        
+    }
+    .card2 {
+        top:22vh;
+        
+    }
+    .card3 {
+        top:14vh;
+        
+    }
+    .card4 {
+        top:4vh;
+        
+    }
+    
+    .decoration {
+        position: relative;
+        margin-top: 16vh;
+    }
+    
+    .decoration1 {
+        scale: 110%;
+        top: -7em;
+        left: 14em;
+    }
+    
+    .decoration2 {
+        scale: 110%;
+        float:right;
+        top: -13em;
+        right: 14em;
+    }
+    .sponsorh1{
+        width: 100%;
+        display: block;
+        text-align: center;
+        font-family: 'Grotesque Black';
+        font-weight: bolder;
+        margin-left: 20vw;
+    }
+}
+
+@media screen and (max-width: 1601px) {
+    .newyear {
+        font-family: 'Grotesque Black';
+        padding-left: 8vw;
+        padding-top: 0em;
+        font-size: 36pt;
+        margin: 0vh 0px 0px 0px;
+    }
+    .homep1 {
+        margin-left: 8vw;
+    }
+    .carousel-image {
+        max-width: 83%;
+        height: auto;
+    }
+    .string {
+        position:relative;
+        margin-top: 2em;
+        width: 105%;
+    }
+    
+    .card {
+        padding: 0em 4em;
+        position:relative;
+        max-width: 100%;
+        height: auto;
+        
+    }
+    .card1 {
+        top: 14vh;
+        margin-left: 6em;
+        
+    }
+    .card2 {
+        top:22vh;
+        
+    }
+    .card3 {
+        top:13vh;
+        
+    }
+    .card4 {
+        top:2vh;
+        
+    }
+    
+    .decoration {
+        position: relative;
+        margin-top: 18vh;
+    }
+    
+    .decoration1 {
+        scale: 110%;
+        top: -10em;
+        left: 14em;
+    }
+    
+    .decoration2 {
+        scale: 110%;
+        float:right;
+        top: -16em;
+        right: 10em;
+    }
+    .sponsorh1{
+
+        display: block;
+        text-align: center;
+        font-family: 'Grotesque Black';
+        font-weight: bolder;
+        margin-left: 25vw;
+    }
+    .sponsor-container {
+        margin-left: 0vw;
+    }
+    .border {
+        margin-left: 11vw;
+    }
+    .icon-container {
+        
+        margin-top:-36em;
+        left: 14vw;
+        padding: 0em 2em;
+    }
+}
+
+@media screen and (max-width: 1441px) {
+    .newyear {
+        font-family: 'Grotesque Black';
+        padding-left: 8vw;
+        padding-top: 0em;
+        font-size: 36pt;
+        margin: 0vh 0px 0px 0px;
+    }
+    .homep1 {
+        margin-left: 8vw;
+    }
+    .carousel-image {
+        max-width: 83%;
+        height: auto;
+    }
+    .string {
+        position:relative;
+        margin-top: 2em;
+        width: 105%;
+    }
+    
+    .card {
+        padding: 0em 4em;
+        position:relative;
+        height: auto;
+        
+    }
+    .card1 {
+        top: 13vh;
+        margin-left: 5em;
+        max-width: 18%;
+    }
+    .card2 {
+        top:20vh;
+        max-width: 17%;
+    }
+    .card3 {
+        top:9vh;
+        max-width: 15%;
+    }
+    .card4 {
+        top:-2vh;
+        max-width: 19%;
+    }
+    
+    .decoration {
+        position: relative;
+        margin-top: 18vh;
+    }
+    
+    .decoration1 {
+        scale: 110%;
+        top: -10em;
+        left: 10em;
+    }
+    
+    .decoration2 {
+        scale: 110%;
+        float:right;
+        top: -16em;
+        right: 8em;
+    }
+    .sponsorh1{
+
+        display: block;
+        text-align: center;
+        font-family: 'Grotesque Black';
+        font-weight: bolder;
+        margin-left: 24vw;
+        text-wrap: nowrap;
+    }
+    .sponsor-container {
+        margin-left: 0vw;
+    }
+    .border {
+        margin-left: 7vw;
+    }
+    .icon-container {
+        
+        margin-top:-36em;
+        left: 11vw;
+        padding: 0em 2em;
+    }
+}
+
+@media screen and (max-width: 1367px) {
+    .homevideo-container{
+        background-color: transparent;
+    }
+    .homevideo{
+        max-width: 100%;
+        height:auto;
+    }
+    .header-info {
+        font-size: 20pt;
+        margin-bottom: 6vh;
+    }
+    .sdtet-header {
+        max-width: 45%;
+        height: auto;
+    }
+    .newyear {
+        font-family: 'Grotesque Black';
+        padding-left: 8vw;
+        padding-top: 0em;
+        font-size: 32pt;
+        margin: 0vh 0px 0px 0px;
+    }
+    .homep1 {
+        margin-left: 8vw;
+        font-size: 14pt;
+    }
+    .lantern {
+        margin-top: -5.6vh;
+    }
+    .carousel-image {
+        max-width: 84%;
+        height: auto;
+    }
+
+
+    .controls a {
+        font-size: 18pt;
+    }
+    .controls {
+        margin-top: 10vh;
+        margin-left: -1vw;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .card {
+        padding: 0em 4em;
+        position:relative;
+        height: auto;
+        
+    }
+    .card1 {
+        top: 13vh;
+        margin-left: 5em;
+        max-width: 17%;
+    }
+    .card2 {
+        top:19vh;
+        max-width: 16%;
+    }
+    .card3 {
+        top:9vh;
+        max-width: 14%;
+    }
+    .card4 {
+        top:0vh;
+        max-width: 18%;
+    }
+    
+    .decoration {
+        position: relative;
+        margin-top: 18vh;
+    }
+    
+    .decoration1 {
+        scale: 110%;
+        top: -10em;
+        left: 10em;
+    }
+    
+    .decoration2 {
+        scale: 110%;
+        float:right;
+        top: -16em;
+        right: 8em;
+    }
+    .sponsorh1{
+
+        display: block;
+        text-align: center;
+        font-family: 'Grotesque Black';
+        font-weight: bolder;
+        margin-left: 25vw;
+        text-wrap: nowrap;
+        font-size: 32pt;
+    }
+    .sponsor-container {
+        margin-left: 0vw;
+    }
+    .border {
+        margin-left: 5vw;
+        max-width: 90%;
+        height: auto;
+    }
+    .icon-container {
+        
+        margin-top:-36em;
+        left: 9vw;
+        padding: 0em 2em;
+    }
+}
+
+@media screen and (max-width: 1281px) {
+    .header-container {
+        margin-top: -55vh;
+    }
+    .header-info2 {
+        padding-top: 14vh;
+    }
+    .darrow {
+        margin-bottom: 3vh;
+    }
+    .homevideo{
+        max-width: 100%;
+        height:auto;
+    }
+    .header-info {
+        font-size: 20pt;
+        margin-bottom: 6vh;
+    }
+    .sdtet-header {
+        max-width: 45%;
+        height: auto;
+    }
+    .newyear {
+        font-family: 'Grotesque Black';
+        padding-left: 8vw;
+        padding-top: 0em;
+        font-size: 28pt;
+        margin: 0vh 0px 0px 0px;
+    }
+    .homep1 {
+        margin-left: 8vw;
+        font-size: 12pt;
+    }
+    .lantern {
+        margin-top: -7.7vh;
+    }
+    .carousel-image {
+        max-width: 84%;
+        height: auto;
+    }
+
+    .prev{
+        margin-top: 6vh;
+        margin-left: 4vw;
+        margin-bottom: 2vh;
+        padding: .6em 1.5em;
+        border-radius: 25pt;
+    }
+    .next {
+        margin-top: 6vh;
+        margin-left: 4vw;
+        margin-bottom: 2vh;
+        padding: .6em 2.3em;
+        border-radius: 25pt;
+    }
+
+    .controls a {
+        font-size: 18pt;
+    }
+    .controls {
+        margin-top: 10vh;
+        margin-left: -1vw;
+        text-align: center;
+        width: 100%;
+    }
+    .string {
+        position:relative;
+        margin-top: 2em;
+        width: 105%;
+    }
+    
+    .card {
+        padding: 0em 4em;
+        position:relative;
+        height: auto;
+        
+    }
+    .card1 {
+        top: 12vh;
+        margin-left: 5em;
+        max-width: 17%;
+    }
+    .card2 {
+        top:18vh;
+        max-width: 16%;
+    }
+    .card3 {
+        top:8vh;
+        max-width: 14%;
+    }
+    .card4 {
+        top:-1vh;
+        max-width: 18%;
+    }
+    
+    .decoration {
+        position: relative;
+        margin-top: 18vh;
+    }
+    
+    .decoration1 {
+        scale: 110%;
+        top: -10em;
+        left: 10em;
+    }
+    
+    .decoration2 {
+        scale: 110%;
+        float:right;
+        top: -16em;
+        right: 8em;
+    }
+    .sponsorh1{
+
+        display: block;
+        text-align: center;
+        font-family: 'Grotesque Black';
+        font-weight: bolder;
+        margin-left: 25vw;
+        text-wrap: nowrap;
+        font-size: 32pt;
+    }
+    .sponsor-container {
+        margin-left: 0vw;
+    }
+    .border {
+        margin-left: 5vw;
+        max-width: 90%;
+        height: auto;
+    }
+    .icon-container {
+        
+        margin-top:-36em;
+        left: 8vw;
+        padding: 0em 1.5em;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .header-container {
+        margin-top: -45vh;
+    }
+    .header-info2 {
+        padding-top: 8vh;
+    }
+    .darrow {
+        margin-bottom: 3vh;
+    }
+    .homevideo{
+        max-width: 100%;
+        height:auto;
+    }
+    .header-info {
+        font-size: 20pt;
+        margin-bottom: 6vh;
+    }
+    .sdtet-header {
+        max-width: 45%;
+        height: auto;
+    }
+    .newyear {
+        font-family: 'Grotesque Black';
+        padding-left: 8vw;
+        padding-top: 0em;
+        font-size: 28pt;
+        margin: 0vh 0px 0px 0px;
+    }
+    .homep1 {
+        margin-left: 8vw;
+        font-size: 12pt;
+    }
+    .lantern {
+        margin-top: -7.7vh;
+    }
+    .carousel-image {
+        max-width: 84%;
+        height: auto;
+    }
+
+    .prev{
+        margin-top: 6vh;
+        margin-left: 4vw;
+        margin-bottom: 2vh;
+        padding: .6em 1.5em;
+        border-radius: 25pt;
+    }
+    .next {
+        margin-top: 6vh;
+        margin-left: 4vw;
+        margin-bottom: 2vh;
+        padding: .6em 2.3em;
+        border-radius: 25pt;
+    }
+
+    .controls a {
+        font-size: 18pt;
+    }
+    .controls {
+        margin-top: 10vh;
+        margin-left: -2vw;
+        text-align: center;
+        width: 100%;
+    }
+    .string {
+        position:relative;
+        margin-top: 2em;
+        width: 105%;
+    }
+    
+    .card {
+        padding: 0em 2.5em;
+        position:relative;
+        height: auto;
+        
+    }
+    .card1 {
+        top: 11vh;
+        margin-left: 5em;
+        max-width: 16%;
+    }
+    .card2 {
+        top:15vh;
+        max-width: 15%;
+    }
+    .card3 {
+        top:8vh;
+        max-width: 13%;
+    }
+    .card4 {
+        top:1vh;
+        max-width: 17%;
+    }
+    
+    .decoration {
+        position: relative;
+        margin-top: 18vh;
+    }
+    
+    .decoration1 {
+        width: 20%;
+        top: -14em;
+        left: 5em;
+    }
+    
+    .decoration2 {
+        width: 25%;
+        float:right;
+        top: -18em;
+        right: 8em;
+    }
+    .sponsorh1{
+
+        display: block;
+        text-align: center;
+        font-family: 'Grotesque Black';
+        font-weight: bolder;
+        margin-left: 20vw;
+        text-wrap: nowrap;
+        font-size: 28pt;
+    }
+    .sponsor-container {
+        margin-left: 0vw;
+        margin-top: 0vh;
+    }
+    .border {
+        margin-left: 5vw;
+        max-width: 90%;
+        height: auto;
+    }
+    .icon-container {
+        
+        margin-top:-27em;
+        left: 8vw;
+        padding: 0em .2em;
+        height: 40%;
+    }
+    .icon {
+        padding: 1em 0em;
+        scale: 70%;
+        justify-content: center;
+    }
+    .sponsor-icon {
+        height: 100%;
+    }
+    .kingfish {
+        padding-left: 2vw;
+    }
+    .citysd {
+        padding-top: 5vh;
+    }
+    .countysd {
+        padding-top: 0vh;
+        padding-left: 1vw;
+    }
+    .dentist {
+        padding-top: 0vh;
+    }
+}
+
+@media screen and (max-width: 821px) {
+    .header-container {
+        margin-top: -40vh;
+    }
+    .header-info2 {
+        padding-top: 11vh;
+    }
+    .homevideo{
+        max-width: 100%;
+        height:auto;
+    }
+    .header-info {
+        font-size: 16pt;
+        margin-bottom: 3vh;
+    }
+    .p-container {
+        max-width: 100%;
+    }
+    .newyear {
+        font-family: 'Grotesque Black';
+        padding-left: 8vw;
+        padding-top: 0em;
+        font-size: 24pt;
+        margin: 0vh 0px 0px 0px;
+    }
+    .homep1 {
+        margin-left: 8vw;
+        margin-right: 8vw;
+        font-size: 12pt;
+    }
+    .lantern {
+        display: none;
+    }
+    
+    .carousel-slides {
+        margin-top: 0vh;
+    }
+
+    .prev{
+        margin-top: 4vh;
+        margin-left: 2vw;
+        margin-bottom: 2vh;
+        padding: .6em 1.5em;
+        border-radius: 25pt;
+    }
+    .next {
+        margin-top: 4vh;
+        margin-left: 2vw;
+        margin-bottom: 2vh;
+        padding: .6em 2.3em;
+        border-radius: 25pt;
+    }
+
+    .controls a {
+        font-size: 14pt;
+    }
+    .controls {
+        margin-top: 2vh;
+        margin-left: -2vw;
+        text-align: center;
+        width: 100%;
+    }
+    .string {
+        position:relative;
+        margin-top: 2em;
+        width: 102%;
+        display: block;
+    }
+    
+    .card {
+        padding: 0em 2.5em;
+        position:relative;
+        height: auto;
+        
+    }
+    .card1 {
+        top: 10vh;
+        margin-left: 16vw;
+        max-width: 30%;
+    }
+    .card2 {
+        top:7vh;
+        max-width: 27%;
+    }
+    .card3 {
+        display:none;
+    }
+    .card4 {
+        display:none;
+    }
+    .string2 {
+        margin-top: -2vh;
+        width: 120%;
+        z-index: -1;
+    }
+    .card3-responsive {
+        top:-3vh;
+        max-width: 26%;
+        transform: rotate(355deg);
+        margin-left: 16vw;
+    }
+    .card4-responsive {
+        top:-13vh;
+        max-width: 34%;
+    }
+    .card-container-responsive {
+        display:block;
+        margin-bottom: 15vh;
+    }
+    
+    .decoration {
+        position: relative;
+        margin-top: 18vh;
+        display:none;
+    }
+    .sponsorh1{
+
+        display: block;
+        text-align: center;
+        font-family: 'Grotesque Black';
+        font-weight: bolder;
+        margin-left: 1vw;
+        text-wrap: nowrap;
+        font-size: 24pt;
+    }
+    .border {
+        margin-left: 5vw;
+        max-width: 90%;
+        height: auto;
+    }
+    .icon-container {
+        
+        margin-top:-22.5em;
+        left: 8vw;
+        padding: 0em .2em;
+        height: 40%;
+        width: 135px;
+    }
+    .icon {
+        padding: 1em 0em;
+        scale: 70%;
+        width: 90%;
+        justify-content: center;
+    }
+    .sponsor-icon {
+        height: 100%;
+    }
+    .kingfish {
+        padding-left: 0vw;
+        padding-bottom: 0vh;
+        scale: 60%
+    }
+    .jamul{
+        padding-top: 0vh;
+        margin-top: -1.5vh;
+    }
+    .citysd {
+        padding-top: 7vh;
+    }
+    .countysd {
+        padding-top: 0vh;
+        padding-left: 1vw;
+    }
+    .dentist {
+        padding-top: 0vh;
+    }
+    .seven {
+        padding-top: 3vh;
+    }
+    .sempra {
+        padding-top: 3vh;
+    }
+}
+
+@media screen and (max-width: 769px) {   
+    .card {
+        padding: 0em 2.5em;
+        position:relative;
+        height: auto;
+        
+    }
+    .card1 {
+        top: 9vh;
+        margin-left: 16vw;
+        max-width: 30%;
+    }
+    .card2 {
+        top:7vh;
+        max-width: 27%;
+    }
+    .string2 {
+        margin-top: -2vh;
+        width: 120%;
+        z-index: -1;
+    }
+    .card3-responsive {
+        top:-3vh;
+        max-width: 26%;
+        transform: rotate(355deg);
+        margin-left: 16vw;
+    }
+    .card4-responsive {
+        top:-12vh;
+        max-width: 34%;
+    }
+    
+    .icon-container {
+        margin-top:-21.5em;
+        left: 8vw;
+        padding: 0em .2em;
+        height: 40%;
+        width: 128px;
+    }
+    .icon {
+        padding: 1em 0em;
+        scale: 70%;
+        width: 90%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 602px) {
+    .header-container {
+        margin-top: -30vh;
+    }
+    .sdtet-header {
+        max-width: 50%;
+        height: auto;
+    }
+    .header-info2 {
+        padding-top: 5vh;
+        font-size: 10pt;
+    }
+    .header-info {
+        font-size: 12pt;
+        margin-bottom: 3vh;
+    }
+    .newyear {
+        font-family: 'Grotesque Black';
+        padding-left: 8vw;
+        padding-top: 0em;
+        font-size: 20pt;
+        margin: 0vh 0px 0px 0px;
+    }
+    .homep1 {
+        margin-left: 8vw;
+        margin-right: 8vw;
+        font-size: 12pt;
+    } 
+    .slide {
+        display: none;
+    }
+    .carousel1{
+        display: block;
+        margin-top: -10vh;
+        margin-bottom: 10vh;
+    }
+    .carousel-image {
+        max-width: 86%;
+        height: auto;
+        display:none;
+    }
+    
+    .carousel-slides {
+        margin-top: -5vh;
+    }
+
+    .prev1 {
+        margin-top: 4vh;
+        margin-left: 2vw;
+        margin-bottom: 2vh;
+        padding: .6em 1.5em;
+        border-radius: 25pt;
+    }
+    .next1 {
+        margin-top: 4vh;
+        margin-left: 2vw;
+        margin-bottom: 2vh;
+        padding: .6em 2.3em;
+        border-radius: 25pt;
+    }
+
+    .controls a {
+        font-size: 14pt;
+        display:none;
+    }
+    .controls1 a {
+        font-size: 14pt;
+    }
+    .controls1 {
+        margin-top: 5vh;
+        margin-left: -1vw;
+        margin-bottom: 2vh;
+        text-align: center;
+        width: 100%;
+    }
+    .string {
+        position:relative;
+        margin-top: -2em;
+        width: 102%;
+    }
+    
+    .card {
+        padding: 0em 2.5em;
+        position:relative;
+        height: auto;
+        
+    }
+    .card1 {
+        top: 1vh;
+        margin-left: 14vw;
+        max-width: 30%;
+    }
+    .card2 {
+        top:-1vh;
+        max-width: 27%;
+    }
+    .string2 {
+        margin-top: -7vh;
+        width: 120%;
+        z-index: -1;
+    }
+    .card3-responsive {
+        top:-2vh;
+        max-width: 26%;
+        transform: rotate(355deg);
+        margin-left: 13vw;
+    }
+    .card4-responsive {
+        top:-10vh;
+        max-width: 34%;
+    }
+    .sponsorh1{
+        margin-left: 1vw;
+        text-wrap: nowrap;
+        font-size: 20pt;
+    }
+    .sponsors-icon-container {
+        display:none;
+    }
+    .border {
+        display: none;
+    }
+    .border1 {
+        margin-left: 16vw;
+        max-width: 90%;
+        height: auto;
+        margin-bottom: 5vh;
+    }
+
+    .sponsor-icon-container-responsive {
+        display:block; 
+    }
+    .responsive-icon-container {
+        
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0em 2em;
+        text-align: center;
+    }
+    .responsive-icon-container1 {
+        margin-top: -130vh;
+    }
+    .sponsorh1 {
+        margin-bottom: 5vh;
+    }
+    .iconr {
+        padding: 1em 0em;
+        scale: 70%;
+        width: 30%;
+        justify-content: center;
+    }
+    .responsive-icon-container7 {
+        text-align: center;
+        margin-bottom: 20vh;
+    }
+    .sponsor-icon {
+        height: 100%;
+    }
+    .kingfishr {
+        padding-left: 0vw;
+        padding-bottom: 0vh;
+        scale: 60%
+    }
+    .regalr{
+        padding-bottom: 3vh;
+    }
+    .jamulr{
+        padding-top: 0vh;
+        margin-top: -1.5vh;
+    }
+    .citysdr {
+        padding-bottom: 5vh;
+    }
+    .countysdr {
+        padding-top: 0vh;
+        padding-left: 1vw;
+    }
+    .dentistr {
+        padding-top: 0vh;
+    }
+    .sevenr {
+        padding-top: 5vh;
+        padding-bottom: 4vh;
+    }
+    .semprar {
+        padding-top: 3vh;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .header-container {
+        margin-top: -19vh;
+    }
+    .sdtet-header {
+        max-width: 50%;
+        height: auto;
+    }
+    .header-info2 {
+        display:none;
+    }
+    .darrow {
+        display: none;
+    }
+    .header-info {
+        font-size: 10pt;
+        margin-bottom: 10vh;
+    }
+    .newyear {
+        font-family: 'Grotesque Black';
+        padding-left: 8vw;
+        padding-top: 0em;
+        font-size: 18pt;
+        margin: 0vh 0px 0px 0px;
+    }
+
+    .controls1 a {
+        font-size: 12pt;
+    }
+    .string {
+        position:relative;
+        margin-top: -5em;
+        width: 102%;
+    }
+    
+    .card {
+        padding: 0em 1em;
+        position:relative;
+        height: auto;
+        
+    }
+    .card1 {
+        top: -4.5vh;
+        margin-left: 8vw;
+        max-width: 35%;
+    }
+    .card2 {
+        top:-7.5vh;
+        max-width: 30%;
+    }
+    .string2 {
+        margin-top: -10vh;
+        width: 120%;
+        z-index: -1;
+    }
+    .card3-responsive {
+        top:-1.5vh;
+        max-width: 30%;
+        transform: rotate(355deg);
+        margin-left: 9vw;
+    }
+    .card4-responsive {
+        top:-7vh;
+        max-width: 40%;
+    }
+    .sponsorh1{
+        margin-left: 1vw;
+        text-wrap: nowrap;
+        font-size: 18pt;
+    }
+    .border1 {
+        margin-left: 6vw;
+        max-width: 90%;
+        height: auto;
+        margin-bottom: 5vh;
+    }
+
+    .sponsor-icon-container-responsive {
+        display:block; 
+    }
+    .responsive-icon-container {
+        
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0em 2em;
+        text-align: center;
+    }
+    .responsive-icon-container1 {
+        margin-top: -120vh;
+    }
+    .sponsorh1 {
+        margin-bottom: 5vh;
+    }
+    .iconr {
+        padding: 1em 0em;
+        scale: 70%;
+        width: 45%;
+        justify-content: center;
+    }
+    .responsive-icon-container7 {
+        text-align: center;
+        margin-bottom: 20vh;
+    }
+    .sponsor-icon {
+        height: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 394px) {
+    .header-container {
+        margin-top: -18vh;
+    }
+    .sdtet-header {
+        max-width: 50%;
+        height: auto;
+    }
+    .header-info {
+        font-size: 10pt;
+        margin-bottom: 10vh;
+    }
+    .homep1 {
+        margin-left: 8vw;
+        margin-right: 8vw;
+        font-size: 12pt;
+    } 
+    
+    .string {
+        position:relative;
+        margin-top: -5em;
+        width: 102%;
+    }
+    
+    .card {
+        padding: 0em 1em;
+        position:relative;
+        height: auto;
+        
+    }
+    .card1 {
+        top: -5vh;
+        margin-left: 6vw;
+        max-width: 37%;
+    }
+    .card2 {
+        top:-7.5vh;
+        max-width: 32%;
+    }
+    .string2 {
+        margin-top: -10vh;
+        width: 120%;
+        z-index: -1;
+    }
+    .card3-responsive {
+        top:-1.5vh;
+        max-width: 30%;
+        transform: rotate(355deg);
+        margin-left: 7vw;
+    }
+    .card4-responsive {
+        top:-6vh;
+        max-width: 41%;
+    }
+    .sponsors-icon-container {
+        display:none;
+    }
+    .sponsorh1{
+        margin-left: 1vw;
+        text-wrap: nowrap;
+        font-size: 18pt;
+    }
+    .border1 {
+        margin-left: 6vw;
+        max-width: 90%;
+        height: auto;
+        margin-bottom: 5vh;
+    }
+    .responsive-icon-container1 {
+        margin-top: -116vh;
+    }
+
+}
+@media screen and (max-width: 361px) {
+    .header-container {
+        margin-top: -17vh;
+    }
+    .string {
+        position:absolute;
+        margin-top: -2em;
+        width: 102%;
+    }
+    
+    .card {
+        padding: 0em 1em;
+        position:relative;
+        height: auto;
+        
+    }
+    .card1 {
+        top: -5.2vh;
+        margin-left: 6vw;
+        max-width: 37%;
+    }
+    .card2 {
+        top:-7.8vh;
+        max-width: 32%;
+    }
+    .string2 {
+        margin-top: -10vh;
+        width: 120%;
+        z-index: -1;
+    }
+    .card3-responsive {
+        top:-2vh;
+        max-width: 29%;
+        transform: rotate(355deg);
+        margin-left: 7vw;
+    }
+    .card4-responsive {
+        top:-6vh;
+        max-width: 40%;
+    }
+    .sponsorh1{
+        margin-left: 1vw;
+        text-wrap: nowrap;
+        font-size: 16pt;
+    }
+    .border1 {
+        margin-left: 6vw;
+        max-width: 90%;
+        height: auto;
+        margin-bottom: 5vh;
+    }
+    .responsive-icon-container {
+        
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0em 2em;
+        text-align: center;
+    }
+    .responsive-icon-container1 {
+        margin-top: -107vh;
+    }
+    .sponsorh1 {
+        margin-bottom: 5vh;
+    }
+    .iconr {
+        padding: 1em 0em;
+        scale: 70%;
+        width: 45%;
+        justify-content: center;
+    }
+    .responsive-icon-container7 {
+        text-align: center;
+        margin-bottom: 20vh;
+    }
+    .sponsor-icon {
+        height: 100%;
+    }
+}

@@ -1,0 +1,863 @@
+.mvsd-banner-container {
+    position: relative;
+    top: -18px;
+    text-align:center;
+}
+
+.header {
+    font-family: 'Mogi';
+    font-size: 48pt;
+    font-weight: 500;
+    color: #281B01;
+}
+
+.header2{
+    font-family: 'Mogi';
+    font-size: 48pt;
+    font-weight: 500;
+    color: #281B01;
+}
+
+.mvsd-header-container {
+    position:relative;
+    top: -14px
+}
+
+.mvsd {
+    margin: 4vh 0vh;
+}
+
+.mvsd-info-section {
+    display: flex;
+}
+
+.mvsd-info-container {
+    max-width: 60%;
+    height: auto;
+}
+
+.mvsd-img-container {
+    margin-top: 10vh;
+    margin-right: 12vw;
+    max-width: 100%;
+    height: auto;
+}
+
+.paragraph1{
+    padding-left:12.3vw;
+    font-size: 14pt;
+    font-family: 'Instrument Sans';
+    line-height: 2;
+}
+
+.paragraph2 {
+    font-family: 'Instrument Sans';
+    font-size: 15pt;
+    text-wrap: wrap;
+}
+
+.apply-section {
+    position: relative;
+    top: -10vh;
+}
+
+.pageant-description {
+    padding-bottom: 5vh;
+    margin-right:-3vw;
+}
+
+.pageant-apply-description {
+    margin-right:-3vw;
+}
+
+.polaroid {
+    scale: 110%
+}
+
+.reasons-container {
+    display:flex;
+}
+
+.reason {
+    display: flex;
+    margin-top: -2em;
+    margin-left: 12.3vw;
+}
+
+.number {
+    font-family: 'Grotesque Black';
+    font-size: 36pt;
+    color: #F14830;
+    width: 100px;
+}
+
+.explanation {
+    margin-top: 1.35em;
+    padding-left: 30px;
+    font-family: 'Grotesque Bold';
+    font-weight: 900;
+    font-size: 28pt;
+}
+
+.reason4 {
+    padding-bottom: 8vh;
+}
+
+.how-to-apply-description {
+    padding-bottom: 3vh;
+    max-width: 65%;
+}
+
+.how-to-apply {
+    padding-bottom: 3vh;
+}
+
+.apply-btn {
+    margin-top: 8vh;
+    margin-left: 12.3vw;
+    background-color: #F14830;
+    padding: .6em 2.5em;
+    border-radius: 40pt;
+    font-family: 'Grotesque Bold';
+    font-size: 18pt;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 2px;
+
+}
+
+.apply-btn:hover {
+    background-color: transparent;
+    border: 1px solid #F14830;
+    color: #F14830;
+}
+
+.flex-container2 {
+    position: relative;
+    top: 35vh;
+    right: 10vw;
+    margin-bottom: 020vh;
+}
+
+.dates-container {
+    display: flex;
+}
+
+.jan-container {
+    text-align: center;
+    border: 2px solid #F14830;
+    padding: 7px 40px;
+    margin-bottom: 6vh;
+    margin-right: 1.5vw;
+}
+
+.decoration4-container {
+    margin-top: 10vh;
+    margin-left: 12vw;
+}
+
+.jan4-container {
+    margin-left: 8vw;
+}
+
+.month {
+    font-family: 'Grotesque Bold';
+    font-weight: 300;
+    color: #F14830;
+    font-size: 36pt;
+    margin-bottom: 20px;
+}
+
+
+.day {
+    font-family: 'Grotesque Black';
+    color: #F14830;
+    font-size: 48pt;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.event {
+    font-family: 'Grotesque Bold';
+    color: #F14830;
+    font-size: 22pt;
+}
+
+.decoration5-container {
+    margin-top: 3vh;
+    margin-left: 13.5vw;
+}
+
+.jan28-container {
+    margin-left: 4vw;
+    margin-top: -3vh;
+    margin-bottom: 16vh;
+}
+
+.feb1-container {
+    margin-top: -3vh;
+    margin-bottom: 16vh;
+}
+
+.decoration6-container {
+    margin-top: -7.8vh;
+    
+}
+
+.mvsd-instagram-section {
+    padding-top: 1em;
+    margin-bottom: 7vh;
+}
+.mvsd-dates-responsive {
+    display: none;
+}
+
+@media screen and (max-width: 1600px) {
+    .visitor-background{
+        max-width: 100%;
+        height: auto
+    }
+    .polaroid {
+        max-width: 100%;
+        height: auto;
+    }
+    .reasons-container {
+        margin-top: 10vh;
+    }
+    .decoration3 {
+        max-width: 120%;
+        height: auto;
+    }
+    .decoration4 {
+        max-width: 100%;
+        height: auto;
+    }
+    .decoration4-container{
+        margin-left: 9vw;
+    }
+    .decoration5 {
+        max-width: 100%;
+        height: auto;
+    }
+    .decoration5-container{
+        margin-left: 10vw;
+    }
+    .decoration6 {
+        max-width: 90%;
+        height: auto;
+    }
+    .jan4-container{
+        margin-left:5vw;
+    }
+    .jan28-container{
+        margin-left:1vw;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .polaroid {
+        max-width: 100%;
+        height: auto;
+    }
+    .mvsd-img-container {
+        margin-right: 7vw;
+        padding-top: 7vh;
+    }
+    .reasons-container {
+        margin-top: 15vh;
+    }
+    .decoration3 {
+        max-width: 120%;
+        height: auto;
+    }
+    .decoration4 {
+        max-width: 100%;
+        height: auto;
+    }
+    .decoration4-container{
+        margin-left: 7vw;
+    }
+    .decoration5 {
+        max-width: 100%;
+        height: auto;
+    }
+    .decoration5-container{
+        margin-left: 8vw;
+    }
+    .decoration6 {
+        max-width: 90%;
+        height: auto;
+    }
+    .jan4-container{
+        margin-left:5vw;
+    }
+    .jan28-container{
+        margin-left:1vw;
+    }
+}
+
+@media screen and (max-width: 1367px) {
+    .polaroid {
+        max-width: 100%;
+        height: auto;
+    }
+    .mvsd-img-container {
+        margin-right: 7vw;
+        padding-top: 9vh;
+    }
+    .reasons-container {
+        margin-top: 15vh;
+    }
+    .decoration3 {
+        max-width: 120%;
+        height: auto;
+    }
+    .decoration4 {
+        max-width: 90%;
+        height: auto;
+    }
+    .decoration4-container{
+        margin-left: 7vw;
+    }
+    .decoration5 {
+        max-width: 90%;
+        height: auto;
+    }
+    .decoration5-container{
+        margin-left: 8vw;
+    }
+    .decoration6 {
+        max-width: 90%;
+        height: auto;
+    }
+    .jan4-container{
+        margin-left:2vw;
+    }
+    .jan28-container{
+        margin-left:1vw;
+    }
+}
+
+@media screen and (max-width: 1281px) {
+    .h1 {
+        font-size: 28pt;
+    }
+    .pageant-description {
+        font-size: 13pt;
+    }
+    .pageant-apply-description {
+        font-size: 13pt;
+    }
+    .polaroid {
+        max-width: 100%;
+        height: auto;
+    }
+    .number {
+        font-size: 30pt;
+    }
+    .explanation {
+        font-size: 25pt;
+        margin-top: 4vh;
+    }
+    .how-to-apply-description {
+        font-size: 13pt;
+    }
+    .apply-btn {
+        font-size: 15pt;
+    }
+    .mvsd-img-container {
+        margin-right: 7vw;
+        padding-top: 9vh;
+    }
+    .reasons-container {
+        margin-top: 15vh;
+    }
+    .decoration3 {
+        max-width: 120%;
+        height: auto;
+    }
+    .decoration4 {
+        max-width: 90%;
+        height: auto;
+    }
+    .decoration4-container{
+        margin-left: 7vw;
+    }
+    .decoration5 {
+        max-width: 90%;
+        height: auto;
+    }
+    .decoration5-container{
+        margin-left: 4vw;
+    }
+    .decoration6 {
+        max-width: 90%;
+        height: auto;
+    }
+    .day {
+        font-size: 36pt;
+    }
+    .month {
+        font-size: 28pt;
+    }
+    .event {
+        font-size: 18pt;
+    }
+    .jan4-container{
+        margin-left:2vw;
+    }
+    .jan28-container{
+        margin-left:1vw;
+    }
+    .paragraph2 {
+        font-size: 13pt;
+    }
+}
+@media screen and (max-width: 1025px) {
+    .h1 {
+        font-size: 25pt;
+    }
+    .mvsd-pageant {
+        margin-left: 7vw;
+    }
+    .pageant-description {
+        font-size: 12pt;
+        padding-left: 7vw;
+    }
+    .mvsd-apply-info {
+        margin-left: 7vw;
+    }
+    .pageant-apply-description {
+        font-size: 12pt;
+        padding-left: 7vw;
+    }
+    .polaroid {
+        max-width: 120%;
+        height: auto;
+        margin-left: -4vw;
+    }
+    .reason {
+        margin-left: 7vw;
+    }
+    .number {
+        font-size: 25pt;
+    }
+    .explanation {
+        font-size: 20pt;
+        margin-top: 4vh;
+    }
+    .how-to-apply-description {
+        font-size: 12pt;
+    }
+    .apply-btn {
+        font-size: 15pt;
+    }
+    .mvsd-img-container {
+        margin-right: 7vw;
+        padding-top: 9vh;
+    }
+    .reasons-container {
+        margin-top: 15vh;
+    }
+    .how-to-apply {
+        margin-left: 7vw;
+    }
+    .how-to-apply-description {
+        padding-left: 7vw;
+    }
+    .apply-btn {
+        margin-left: 7vw;
+    }
+    .mvsd-dates {
+        margin-left: 7vw;
+    }
+    .decoration3 {
+        max-width: 120%;
+        height: auto;
+    }
+    .decoration4 {
+        max-width: 80%;
+        height: auto;
+    }
+    .decoration4-container{
+        margin-left: 3vw;
+    }
+    .decoration5 {
+        max-width: 80%;
+        height: auto;
+    }
+    .decoration5-container{
+        margin-left: 5vw;
+    }
+    .jan-container {
+        padding: 0vh 3vw
+    }
+    .decoration6 {
+        max-width: 80%;
+        height: auto;
+        padding-top: .7vh;
+    }
+    .day {
+        font-size: 36pt;
+    }
+    .month {
+        font-size: 28pt;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    .event {
+        font-size: 18pt;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    .jan4-container{
+        margin-left:2vw;
+    }
+    .jan28-container{
+        margin-left:1vw;
+    }
+    .paragraph2 {
+        font-size: 12pt;
+    }
+}
+
+@media screen and (max-width: 821px) {
+    .mvsd {
+        width: 100vw;
+        font-size: 36pt;
+    }
+    .mvsd-pageant {
+        margin-left: 5vw;
+    }
+    .pageant-description {
+        font-size: 12pt;
+        padding-left: 5vw;
+    }
+    .mvsd-apply-info {
+        margin-left: 5vw;
+    }
+    .pageant-apply-description {
+        font-size: 12pt;
+        padding-left: 5vw;
+    }
+    .polaroid {
+        max-width: 120%;
+        height: auto;
+        margin-left: -4vw;
+        margin-top: 10vh;
+    }
+    .reason {
+        margin-left: 5vw;
+    }
+    .number {
+        font-size: 25pt;
+    }
+    .explanation {
+        font-size: 20pt;
+        margin-top: 4vh;
+    }
+    .how-to-apply-description {
+        font-size: 12pt;
+    }
+    .apply-btn {
+        font-size: 15pt;
+    }
+    .mvsd-img-container {
+        margin-right: 5vw;
+        padding-top: 9vh;
+    }
+    .reasons-container {
+        margin-top: 15vh;
+    }
+    .how-to-apply {
+        margin-left: 5vw;
+    }
+    .how-to-apply-description {
+        padding-left: 5vw;
+    }
+    .apply-btn {
+        margin-left: 5vw;
+    }
+    .mvsd-dates {
+        margin-left: 5vw;
+    }
+    .decoration3 {
+        max-width: 120%;
+        height: auto;
+    }
+    .decoration4 {
+        max-width: 80%;
+        height: auto;
+    }
+    .decoration4-container{
+        margin-left: 2vw;
+        max-width: 10vw;
+    }
+    .decoration5 {
+        max-width: 80%;
+        height: auto;
+    }
+    .decoration5-container{
+        margin-left: 3vw;
+        max-width: 23vw;
+    }
+    .jan-container {
+        padding: 0vh 1.5vw
+    }
+    .decoration6 {
+        max-width: 85%;
+        height: auto;
+        padding-top: .7vh;
+        padding-left: 2vw;
+    }
+    .decoration6-container {
+        max-width: 25vw;
+    }
+    .day {
+        font-size: 36pt;
+    }
+    .month {
+        font-size: 28pt;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    .event {
+        font-size: 18pt;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+    .jan4-container{
+        margin-left:2vw;
+    }
+    .jan28-container{
+        margin-left:1vw;
+    }
+    .paragraph2 {
+        font-size: 12pt;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    
+    .longexplanation {
+        padding-left: 7.5vw;
+    }
+    .how-to-apply {
+        margin-left: 5vw;
+        margin-bottom: 0vh;
+        padding-bottom: 2vh;
+    }
+    .decoration6 {
+        max-width: 100%;
+        height: auto;
+        padding-top: .7vh;
+        padding-left: 1vw;
+    }
+    .decoration6-container {
+        max-width: 22vw;
+    }
+}
+
+@media screen and (max-width: 602px) {
+    .nonresponsive-mvsd {
+        display:none;
+    }
+    .longexplanation {
+        padding-left: 6vw;
+    }
+    .mvsd-dates-responsive {
+        display: block;
+    }
+    .reason {
+        width: 100vw;
+        margin-left: 5vw;
+    }
+    .mvsd-info-section {
+        max-width: 100vw;
+        display:block;
+    }
+    .mvsd {
+        max-width: 100vw;
+        font-size: 36pt;
+    }
+    .mvsd-pageant {
+        margin-left: 5vw;
+        width: 85vw;
+        max-width: 85vw;
+        height: auto;
+    }
+    .pageant-description {
+        font-size: 12pt;
+        padding-left: 5vw;
+        width: 85vw;
+        max-width: 85vw;
+        height: auto;
+    }
+    .mvsd-apply-info {
+        margin-left: 5vw;
+        width: 85vw;
+        max-width: 85vw;
+        height: auto;
+    }
+    .pageant-apply-description {
+        display: none;
+    }
+    .mvsd-img-container {
+        margin-top: 0;
+        padding: 0vh 0vw;
+    }
+    .explanationr {
+        width: 100vw
+    }
+    .numberr {
+        width: 30vw;
+    }
+    .reason4 {
+        padding-bottom: 1vh;
+    }
+    .how-to-apply-description {
+        font-size: 12pt;
+    }
+    .apply-btn {
+        font-size: 12pt;
+    }
+    .reasons-container {
+        margin-top: 15vh;
+    }
+    .how-to-apply {
+        margin-left: 5vw;
+    }
+    .how-to-apply-description {
+        padding-left: 5vw;
+        width: 85vw;
+        max-width: 85vw;
+        height: auto;
+    }
+    .apply-btn {
+        margin-left: 5vw;
+    }
+    .dates-container {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 415px) {
+
+    .mvsd {
+        max-width: 100vw;
+        font-size: 28pt;
+        text-wrap: wrap;
+    }
+    .mvsd-header-container {
+        margin-top: 6.5vh;
+    }
+    .mvsd-pageant {
+        margin-left: 5vw;
+        width: 85vw;
+        max-width: 85vw;
+        height: auto;
+        font-size: 20pt;
+    }
+    .pageant-description {
+        font-size: 12pt;
+        padding-left: 5vw;
+        width: 85vw;
+        max-width: 85vw;
+        height: auto;
+    }
+    .mvsd-apply-info {
+        margin-left: 5vw;
+        width: 85vw;
+        max-width: 85vw;
+        height: auto;
+        font-size: 20pt;
+    }
+    .number {
+        font-size: 24pt;
+    }
+    .explanation {
+        font-size: 18pt;
+        max-width: 55vw;
+    }
+    .longexplanation {
+        padding-left: 7.3vw;
+    }
+    .explanationr {
+        width: 100vw
+    }
+    .numberr {
+        width: 30vw;
+    }
+    .reason4 {
+        padding-bottom: 1vh;
+    }
+    .how-to-apply-description {
+        font-size: 12pt;
+    }
+    .apply-btn {
+        font-size: 12pt;
+    }
+    .reasons-container {
+        margin-top: 15vh;
+    }
+    .how-to-apply {
+        margin-left: 5vw;
+        font-size: 20pt;
+    }
+    .how-to-apply-description {
+        padding-left: 5vw;
+        width: 85vw;
+        max-width: 85vw;
+        height: auto;
+        font-size: 12pt;
+    }
+    .mvsd-dates {
+        font-size: 20pt;
+    }
+    .apply-btn {
+        margin-left: 5vw;
+        font-size: 10pt;
+    }
+    .sdtf {
+        font-size: 20pt;
+    }
+    .sdtf-p {
+        font-size: 12pt;
+    }
+}
+
+@media screen and (max-width: 394px) {
+    .mvsd-header-container {
+        margin-top: 6.2vh;
+    }
+    .number {
+        font-size: 24pt;
+        width: 15vw;
+        margin-top: 3.5vh;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .mvsd-header-container {
+        margin-top: 5.7vh;
+    }
+    .mvsd {
+        font-size: 24pt;
+    }
+    .number {
+        font-size: 22pt;
+        width: 20vw;
+        margin-top: 3.5vh;
+    }
+    .explanation {
+        font-size: 16pt;
+    }
+    .longexplanation {
+        padding-left: 8.5vw;
+    }
+    .numberr {
+        width: 33vw;
+    }
+}

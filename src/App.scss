@@ -1,0 +1,38 @@
+$primary-color: #000000;
+
+@import 'animate.css';
+
+@font-face {
+    font-family: 'Instrument Sans';
+    src: url('./assets/fonts/InstrumentSans-Medium.ttf') format('truetype');
+}
+
+
+
+@font-face {
+    font-family: 'Grotesque Bold';
+    src: url('./assets/fonts/DarkerGrotesque-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Grotesque Regular';
+    src: url('./assets/fonts/DarkerGrotesque-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Grotesque Black';
+    src: url('./assets/fonts/DarkerGrotesque-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Grotesque Medium';
+    src: url('./assets/fonts/DarkerGrotesque-Medium.ttf') format('truetype');
+}
+
+
+
+
+@font-face {
+    font-family: 'Mogi';
+    src: url('./assets/fonts/LCMogi-A.otf') format('opentype');
+}

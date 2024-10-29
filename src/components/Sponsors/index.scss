@@ -1,0 +1,437 @@
+.sponsor-header-container {
+    text-align: center;
+    position: relative;
+    top: -38vh;
+}
+
+.sponsors-section{
+    display: flex;
+    position: relative;
+    top: -22.3vh;
+    margin-bottom: -22.7vh;
+}
+.sponsor-banner-container {
+    position: relative;
+    top: -2.1vh;
+}
+
+.sponsor-info-container {
+    max-width: 65%;
+    margin-right: 5vw;
+    margin-top: 5vh
+}
+
+.sponsor-header {
+    font-family: 'Mogi';
+    font-size: 48pt;
+    font-weight: 500;
+    color: #FEFAE6;
+}
+
+.sponsor-h {
+    color: #F14830;
+    margin-bottom: 5vh;
+    font-size: 48pt;
+}
+
+
+.sponsor-p1 {
+    font-size:18pt;
+    margin-left: 12.3vw;
+    font-family: 'Instrument Sans';
+    line-height: 1.5;
+    margin-bottom: 4vh;
+}
+
+.sponsor-p1 span{
+    text-decoration: underline;
+}
+
+.sponsor-list {
+    margin-left: 12.3vw;
+    padding-left: 2vw;
+    font-family: 'Instrument Sans';
+    font-size: 18pt;
+    line-height: 1.5;
+}
+
+.sponsor-list-container {
+    margin-bottom: 5vh;
+}
+
+.paragraphsponsor {
+    margin-bottom: 5vh;
+}
+
+.paragraphsponsor1 {
+    margin-bottom: 1vh;
+}
+.paragraphsponsor2 {
+    margin-bottom: 5vh;
+}
+
+.sponsorship-package {
+    padding: 1.5vh 6vw;
+    font-size: 20pt;
+}
+
+.p1-start {
+    padding-top: 5vh;
+}
+
+.apply-btn1 {
+    margin-top: 8vh;
+    margin-left: 12.3vw;
+    background-color: #F14830;
+    padding: .6em 2.5em;
+    border-radius: 40pt;
+    font-family: 'Grotesque Bold';
+    font-size: 18pt;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 2px;
+
+}
+
+@media screen and (min-width: 2040px) {
+    .worm {
+        margin-top: 1.5vh;
+    }
+    .sponsor-banner {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 1601px) {
+    .worm {
+        max-width: 100%;
+        height: auto;
+        margin-top: -.35vh;
+    }
+    .sponsor-p1 {
+        font-size: 16pt;
+    }
+    .sponsor-list {
+        font-size: 16pt;
+    }
+}
+
+@media screen and (max-width: 1441px) {
+    .sponsor-header {
+        font-size: 48pt;
+    }
+    .sponsors-section {
+        margin-top: -.35vh;
+    }
+    .worm {
+        max-width: 100%;
+        height: auto;
+        margin-top: 0vh;
+    }
+    .sponsor-h {
+        font-size: 40pt;
+    }
+    .apply-btn1 {
+        font-size: 18pt;
+    }
+}
+
+@media screen and (max-width: 1281px) {
+    .sponsor-header {
+        font-size: 48pt;
+    }
+    .sponsor-info-container {
+        margin-right: 2vw;
+    }
+    .sponsors-section {
+        margin-top: -.35vh;
+    }
+    .worm {
+        max-width: 100%;
+        height: auto;
+    }
+    .sponsor-h {
+        font-size: 36pt;
+        margin-left: 7vw;
+    }
+    .apply-btn1 {
+        font-size: 14pt;
+        margin-left: 7vw;
+    }
+    .sponsor-p1 {
+        font-size: 16pt;
+        margin-left: 7vw;
+    }
+    .sponsor-list {
+        font-size: 16pt;
+        margin-left: 7vw;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .sponsor-header {
+        font-size: 40pt;
+    }
+    .sponsor-info-container {
+        margin-right: 2vw;
+    }
+    .sponsors-section {
+        margin-top: 8vh;
+    }
+    .worm {
+        max-width: 100%;
+        height: auto;
+    }
+    .sponsor-h {
+        font-size: 36pt;
+        margin-left: 7vw;
+    }
+    .apply-btn1 {
+        font-size: 16pt;
+        margin-left: 7vw;
+    }
+    .sponsor-p1 {
+        font-size: 14pt;
+        margin-left: 7vw;
+    }
+    .sponsor-list {
+        font-size: 14pt;
+        margin-left: 7vw;
+    }
+}
+
+@media screen and (max-width: 821px) {
+    .sponsor-header {
+        font-size: 40pt;
+        margin-top: 14vh;
+
+    }
+    .sponsor-banner {
+        max-height: 35vh;
+    }
+    .sponsor-info-container {
+        margin-right: 2vw;
+        margin-top: 0vh;
+    }
+    .sponsors-section {
+        margin-top: -6vh;
+    }
+    .worm {
+        max-width: 100%;
+        height: auto;
+    }
+    .sponsor-h {
+        font-size: 28pt;
+        margin-left: 5vw;
+    }
+    .apply-btn1 {
+        font-size: 12pt;
+        margin-left: 5vw;
+    }
+    .sponsor-p1 {
+        font-size: 12pt;
+        margin-left: 5vw;
+        margin-bottom: 2vh;
+    }
+    .sponsor-list {
+        font-size: 12pt;
+        margin-left: 5vw;
+    }
+    .p1-start {
+        padding-top: 3vh;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .sponsor-h {
+        font-size: 28pt;
+        margin-left: 5vw;
+        margin-top: 2vh;
+        margin-bottom: 4vh;
+    }
+}
+@media screen and (max-width: 602px) {
+    .sponsor-header {
+        font-size: 40pt;
+        margin-top: 14vh;
+
+    }
+    .sponsor-banner {
+        max-height: 35vh;
+    }
+    .sponsor-info-container {
+        margin-right: 10vw;
+        margin-top: 0vh;
+        width: 100vw;
+    }
+    .sponsors-section {
+        margin-top: -6vh;
+        margin-right: 5vw;
+    }
+    .worm-container {
+        display:none;
+    }
+    .worm {
+        max-width: 100%;
+        height: auto;
+    }
+    .sponsor-h {
+        font-size: 28pt;
+        margin-left: 0vw;
+        width: 100vw;
+        text-align: center;
+    }
+    .apply-btn1 {
+        font-size: 12pt;
+        margin-left: 15vw;
+        width: 100vw;
+        text-align: center;
+    }
+    .sponsor-p1 {
+        font-size: 12pt;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-bottom: 2vh;
+        max-width: 100vw;
+    }
+    .sponsor-list {
+        font-size: 12pt;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        text-align: left;
+    }
+    .sponsor-list-container {
+        width: 100vw;
+    }
+    .p1-start {
+        padding-top: 3vh;
+    }
+    .sponsor-body-container {
+        width: 100vw;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .sponsor-header {
+        font-size: 40pt;
+        margin-top: 14vh;
+
+    }
+    .sponsor-banner {
+        max-height: 35vh;
+    }
+    .sponsor-info-container {
+        margin-right: 10vw;
+        margin-top: 0vh;
+        width: 100vw;
+    }
+    .sponsors-section {
+        margin-top: -6vh;
+        margin-right: 5vw;
+    }
+    .worm-container {
+        display:none;
+    }
+    .worm {
+        max-width: 100%;
+        height: auto;
+    }
+    .sponsor-h {
+        font-size: 24pt;
+        margin-left: 0vw;
+        width: 100vw;
+        text-align: center;
+    }
+    .apply-btn1 {
+        font-size: 10pt;
+        margin-left: 6vw;
+        width:75vw;
+        text-align: center;
+    }
+    .sponsor-p1 {
+        font-size: 12pt;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-bottom: 2vh;
+        max-width: 100vw;
+    }
+    .sponsor-list {
+        font-size: 12pt;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        text-align: left;
+    }
+    .sponsor-list-container {
+        width: 100vw;
+    }
+    .p1-start {
+        padding-top: 3vh;
+    }
+    .sponsor-body-container {
+        width: 100vw;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .sponsor-header {
+        font-size: 32pt;
+        margin-top: 16vh;
+
+    }
+    .sponsor-banner {
+        max-height: 35vh;
+    }
+    .sponsor-info-container {
+        margin-right: 10vw;
+        margin-top: 0vh;
+        width: 100vw;
+    }
+    .sponsors-section {
+        margin-top: -6vh;
+        margin-right: 5vw;
+    }
+    .worm-container {
+        display:none;
+    }
+    .worm {
+        max-width: 100%;
+        height: auto;
+    }
+    .sponsor-h {
+        font-size: 22pt;
+
+        width: 100vw;
+        text-align: center;
+    }
+    .apply-btn1 {
+        font-size: 9pt;
+        margin-left: 4vw;
+        width:75vw;
+        text-align: center;
+    }
+    .sponsor-p1 {
+        font-size: 10pt;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        margin-bottom: 2vh;
+        max-width: 100vw;
+    }
+    .sponsor-list {
+        font-size: 10pt;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        text-align: left;
+    }
+    .sponsor-list-container {
+        width: 100vw;
+    }
+    .p1-start {
+        padding-top: 3vh;
+    }
+    .sponsor-body-container {
+        width: 100vw;
+        text-align: left;
+    }
+}
