@@ -10,6 +10,9 @@ const Navbar = () => {
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
+    const closeMenu = () => {
+        setIsOpen(false);
+    }
     return ( 
     <>
     
@@ -35,14 +38,14 @@ const Navbar = () => {
             </button>
             <nav className = {`nav ${isOpen ? "open" : ""}`}>
                 <ul className = 'navbuttons'>
-                    <li className="navhome"><Link to="/">HOME</Link></li>
-                    <li className="navvisitor"><Link to="/info">VISITOR INFO</Link></li>
-                    <li className="naventertainment"><Link to="/entertainment">ENTERTAINMENT</Link></li>
-                    <li className="navvendors"><Link to="/vendors">VENDORS</Link></li>
-                    <li className="navschedule"><Link to="/schedule">SCHEDULE</Link></li>
-                    <li className="navmvsd"><Link to="/mvsd">MISS VIETNAM SD</Link></li>
-                    <li className="navsponsors"><Link to="/sponsors">SPONSORS</Link></li>
-                    <li className="navvolunteers"><Link to="/volunteers">VOLUNTEERS</Link></li>
+                    <li className="navhome"><Link to="/" onClick={closeMenu}>HOME</Link></li>
+                    <li className="navvisitor"><Link to="/info" onClick={closeMenu}>VISITOR INFO</Link></li>
+                    <li className="naventertainment"><Link to="/entertainment" onClick={closeMenu}>ENTERTAINMENT</Link></li>
+                    <li className="navvendors"><Link to="/vendors" onClick={closeMenu}>VENDORS</Link></li>
+                    <li className="navschedule"><Link to="/schedule" onClick={closeMenu}>SCHEDULE</Link></li>
+                    <li className="navmvsd"><Link to="/mvsd" onClick={closeMenu}>MISS VIETNAM SD</Link></li>
+                    <li className="navsponsors"><Link to="/sponsors" onClick={closeMenu}>SPONSORS</Link></li>
+                    <li className="navvolunteers"><Link to="/volunteers" onClick={closeMenu}>VOLUNTEERS</Link></li>
                 </ul>
             </nav>
             
