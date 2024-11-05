@@ -17,7 +17,7 @@ const Sponsors = () => {
         </section>
         <section className = 'sponsors-section'>
             <div className = 'sponsor-info-container'>
-                <h1 className = 'h1 sponsor-h'>SPONSORS & EXHIBITORS</h1>
+                <h1 className = 'h1-font sponsor-h'>SPONSORS & EXHIBITORS</h1>
                 <div className = 'sponsor-body-container'>
                     <a href = '/' className = 'apply-btn1 sponsorship-package'>VIEW THE 2024 SPONSORSHIP PACKAGE</a>
                 <p className = 'sponsor-p1 p1-start'>For more than a decade, VAYA has organized the Tết Festival, the largest Vietnamese New Year event in San Diego and the second largest event of its kind in Southern California. The Festival is one of the most anticipated annual events for the Vietnamese community in San Diego. Highlights of the festival include the Lion Dances, Miss Vietnam San Diego Pageant, Golden Voice singing competition, the Cultural Village and various other performances.</p>
