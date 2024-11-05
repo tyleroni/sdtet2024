@@ -42,19 +42,32 @@
 
 .p-container {
     max-width: 70%;
+    margin-left: 15vw;
 }
 
 
 .newyear {
-    font-family: 'Grotesque Black';
-    padding-left: 15vw;
     padding-top: 1em;
     font-size: 36pt;
     margin: 0vh 0px 0px 0px;
 }
 
+.h1-font {
+    font-family: 'Grotesque Black';
+    font-size: 36pt;
+}
+
+.h2-font {
+    font-family: 'Grotesque Black';
+    font-size: 24pt;
+}
+
+.p1-font{
+    font-size: 14pt;
+    font-family: 'Instrument Sans';
+    line-height: 1.8em;
+}
 .homep1{
-    margin-left: 15vw;
     margin-right: 2vw;
 }
 
@@ -63,11 +76,7 @@
     padding-bottom: .5em;
     font-size: 24pt;
 }
-.p1{
-    font-size: 14pt;
-    font-family: 'Instrument Sans';
-    line-height: 1.8em;
-}
+
 
 .horizontal-container{
     text-align: center;
@@ -380,13 +389,9 @@
 @media screen and (max-width: 1921px) {
     .newyear {
         font-family: 'Grotesque Black';
-        padding-left: 13vw;
         padding-top: 0em;
         font-size: 36pt;
         margin: 0vh 0px 0px 0px;
-    }
-    .homep1 {
-        margin-left: 13vw;
     }
     .carousel-image {
         max-width: 73%;
@@ -451,13 +456,23 @@
 @media screen and (max-width: 1601px) {
     .newyear {
         font-family: 'Grotesque Black';
-        padding-left: 8vw;
+        padding-left: 0vw;
         padding-top: 0em;
-        font-size: 36pt;
         margin: 0vh 0px 0px 0px;
     }
-    .homep1 {
+    .h1-font {
+        font-family: 'Grotesque Black';
+        font-size: 36pt;
+    }
+    .h2-font {
+        font-family: 'Grotesque Black';
+        font-size: 24pt;
+    }
+    .p-container {
         margin-left: 8vw;
+    }
+    .homep1 {
+        margin-left: 0vw;
     }
     .carousel-image {
         max-width: 83%;
@@ -536,13 +551,15 @@
 @media screen and (max-width: 1441px) {
     .newyear {
         font-family: 'Grotesque Black';
-        padding-left: 8vw;
         padding-top: 0em;
         font-size: 36pt;
         margin: 0vh 0px 0px 0px;
     }
-    .homep1 {
-        margin-left: 8vw;
+    .h1-font {
+        font-size: 32pt;
+    }
+    .h2-font {
+        font-size: 20pt;
     }
     .carousel-image {
         max-width: 83%;
@@ -636,13 +653,17 @@
     }
     .newyear {
         font-family: 'Grotesque Black';
-        padding-left: 8vw;
+
         padding-top: 0em;
-        font-size: 32pt;
         margin: 0vh 0px 0px 0px;
     }
-    .homep1 {
-        margin-left: 8vw;
+    .h1-font {
+        font-size: 32pt;
+    }
+    .h2-font {
+        font-size: 20pt;
+    }
+    .p1-font {
         font-size: 14pt;
     }
     .lantern {
@@ -713,7 +734,6 @@
         font-weight: bolder;
         margin-left: 25vw;
         text-wrap: nowrap;
-        font-size: 32pt;
     }
     .sponsor-container {
         margin-left: 0vw;
@@ -754,16 +774,20 @@
         height: auto;
     }
     .newyear {
-        font-family: 'Grotesque Black';
-        padding-left: 8vw;
         padding-top: 0em;
         font-size: 28pt;
         margin: 0vh 0px 0px 0px;
     }
-    .homep1 {
-        margin-left: 8vw;
-        font-size: 12pt;
+    .h1-font {
+        font-size: 32pt;
     }
+    .h2-font {
+        font-size: 20pt;
+    }
+    .p1-font {
+        font-size: 14pt;
+    }
+
     .lantern {
         margin-top: -7.7vh;
     }
@@ -893,15 +917,19 @@
     }
     .newyear {
         font-family: 'Grotesque Black';
-        padding-left: 8vw;
         padding-top: 0em;
-        font-size: 28pt;
         margin: 0vh 0px 0px 0px;
     }
-    .homep1 {
-        margin-left: 8vw;
+    .h1-font {
+        font-size: 28pt;
+    }
+    .h2-font {
+        font-size: 18pt;
+    }
+    .p1-font {
         font-size: 12pt;
     }
+
     .lantern {
         margin-top: -7.7vh;
     }
@@ -989,7 +1017,6 @@
         font-weight: bolder;
         margin-left: 20vw;
         text-wrap: nowrap;
-        font-size: 28pt;
     }
     .sponsor-container {
         margin-left: 0vw;
@@ -1047,17 +1074,20 @@
     }
     .p-container {
         max-width: 100%;
+        margin-right: 8vw;
     }
     .newyear {
         font-family: 'Grotesque Black';
-        padding-left: 8vw;
         padding-top: 0em;
-        font-size: 24pt;
         margin: 0vh 0px 0px 0px;
     }
-    .homep1 {
-        margin-left: 8vw;
-        margin-right: 8vw;
+    .h1-font {
+        font-size: 28pt;
+    }
+    .h2-font {
+        font-size: 18pt;
+    }
+    .p1-font {
         font-size: 12pt;
     }
     .lantern {
@@ -1153,7 +1183,6 @@
         font-weight: bolder;
         margin-left: 1vw;
         text-wrap: nowrap;
-        font-size: 24pt;
     }
     .border {
         margin-left: 5vw;
@@ -1205,6 +1234,18 @@
 }
 
 @media screen and (max-width: 769px) {   
+    .h1-font {
+        font-size: 24pt;
+    }
+    .h2-font {
+        font-size: 18pt;
+    }
+    .p1-font {
+        font-size: 12pt;
+    }
+    .homep1 {
+        margin-right: 0vw;
+    }
     .card {
         padding: 0em 2.5em;
         position:relative;
@@ -1269,16 +1310,20 @@
     }
     .newyear {
         font-family: 'Grotesque Black';
-        padding-left: 8vw;
+
         padding-top: 0em;
-        font-size: 20pt;
         margin: 0vh 0px 0px 0px;
     }
-    .homep1 {
-        margin-left: 8vw;
-        margin-right: 8vw;
+    .h1-font {
+        font-size: 24pt;
+    }
+    .h2-font {
+        font-size: 18pt;
+    }
+    .p1-font {
         font-size: 12pt;
-    } 
+    }
+
     .slide {
         display: none;
     }
@@ -1365,7 +1410,6 @@
     .sponsorh1{
         margin-left: 1vw;
         text-wrap: nowrap;
-        font-size: 20pt;
     }
     .sponsors-icon-container {
         display:none;
@@ -1461,10 +1505,17 @@
     }
     .newyear {
         font-family: 'Grotesque Black';
-        padding-left: 8vw;
         padding-top: 0em;
-        font-size: 18pt;
         margin: 0vh 0px 0px 0px;
+    }
+    .h1-font {
+        font-size: 18pt;
+    }
+    .h2-font {
+        font-size: 16pt;
+    }
+    .p1-font {
+        font-size: 12pt;
     }
 
     .controls1 a {
@@ -1509,7 +1560,6 @@
     .sponsorh1{
         margin-left: 1vw;
         text-wrap: nowrap;
-        font-size: 18pt;
     }
     .border1 {
         margin-left: 6vw;
@@ -1563,11 +1613,15 @@
         font-size: 10pt;
         margin-bottom: 10vh;
     }
-    .homep1 {
-        margin-left: 8vw;
-        margin-right: 8vw;
+    .h1-font {
+        font-size: 18pt;
+    }
+    .h2-font {
+        font-size: 16pt;
+    }
+    .p1-font {
         font-size: 12pt;
-    } 
+    }
     
     .string {
         position:relative;

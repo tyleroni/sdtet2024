@@ -10,7 +10,8 @@
     height: 600px;
     z-index: 0;
 }
-.visitor-header {
+
+.page-header {
     font-family: 'Mogi';
     color: #FEFAE6;
     font-size: 48pt;
@@ -27,18 +28,34 @@
 
 .admission-hours {
     font-family: 'Grotesque Black';
-    font-size: 36pt;
     padding-top: 6em;
     padding-left: 12.3vw;
+}
+
+.h1-font {
+    font-family: 'Grotesque Black';
+    font-size: 36pt;
+}
+
+.h2-font {
+    font-family: 'Grotesque Black';
+    font-size: 24pt;
+}
+
+.p1-font{
+    font-size: 14pt;
+    font-family: 'Instrument Sans';
+    line-height: 1.8em;
 }
 
 .dragon-container {
     display: flex;
     width: 200%;
+    margin-left: 10em;
 }
 
 .dragon {
-    padding-left: 10em;
+
     margin-top: -2em;
 }
 
@@ -122,8 +139,6 @@
 .directions {
     font-family: 'Grotesque Black';
     padding-left: 12.3vw;
-    
-    font-size: 36pt;
 }
 
 .img-container {
@@ -166,13 +181,10 @@
     text-wrap: wrap;
     padding-bottom: 1em;
 }
-
-.h1 {
-    font-family: 'Grotesque Black';
+.festival-rules {
     margin-left: 12.3vw;
-    
-    font-size: 30pt;
 }
+
 
 .rules-container {
     display:flex;
@@ -215,6 +227,7 @@
 
 .festival-highlights {
     padding-bottom: 1em;
+    margin-left: 12.3vw;
 }
 
 .highlights-container {
@@ -317,6 +330,10 @@ a {
     margin-bottom: 5vh;
 }
 
+.sdtf {
+    margin-left: 12.3vw;
+}
+
 .sdtf-p {
     margin-left: 12.3vw;
     margin-bottom: 4vh;
@@ -358,12 +375,31 @@ a {
     .admission-hours {
         padding-top: 20vh;
     }
+    .h1-font {
+        font-family: 'Grotesque Black';
+        font-size: 36pt;
+    }
+    
+    .h2-font {
+        font-family: 'Grotesque Black';
+        font-size: 24pt;
+    }
+    
     .dragon {
-        padding-left: 7.5vw;
+        padding-left: 0vw;
+    }
+    .dragon-container {
+        margin-left: 7.5vw;
     }
 
     .map {
         padding-left: 2vw;
+    }
+    .rules-container {
+        padding-left: 15vw;
+    }
+    .asset {
+        padding-left: 5vw;
     }
     .insta-img {
         padding-right: 1vw;
@@ -379,8 +415,8 @@ a {
     .visitor-header {
         margin-top: 15vh;
     }
-    .dragon {
-        padding-left: 3vw;
+    .dragon-container {
+        margin-left: 5vw;
     }
     .admission-hours {
         padding-left: 8vw;
@@ -441,10 +477,11 @@ a {
 }
 
 @media screen and (max-width: 1367px) {
-    
+    .page-header {
+        font-size: 40pt;
+    }
     .visitor-header {
         margin-top: 17vh;
-        font-size: 40pt;
     }
     .dragon {
         padding-left: 0vw;
@@ -454,7 +491,6 @@ a {
     }
     .admission-hours {
         padding-left: 7vw;
-        font-size: 32pt;
         margin-bottom: 0vh;
     }
     .directions{
@@ -513,7 +549,12 @@ a {
 @media screen and (max-width: 1281px) {
     .visitor-header {
         margin-top: 18vh;
-        font-size: 40pt;
+    }
+    .h1-font {
+        font-size: 32pt;
+    }
+    .h2-font {
+        font-size: 20pt;
     }
     .dragon {
         margin-left: 2vw;
@@ -540,6 +581,9 @@ a {
     }
     .sdtf {
         font-size: 28pt;
+    }
+    .miss-vietnamh2 {
+        font-size: 21pt;
     }
     .hours-container {
         padding-left: .5vw;
@@ -675,11 +719,22 @@ a {
     .visitor-header{
         margin-top: 24vh;
     }
+    .h1-font {
+        font-size: 28pt;
+    }
+    .h2-font {
+        font-size: 18pt;
+    }
+    .p1-font {
+        font-size: 12pt;
+    }
     .dragon {
         justify-content: center;
         width: 75%;
         padding-top: 0vh;
         margin-top: 2vh;
+        margin-left: 0vw;
+        padding-right: 10vw;
     }
     .dragon-container {
         display: block;
@@ -687,7 +742,7 @@ a {
         width: 100%
     }
     .hours-container {
-        margin-left: 6vw;
+        margin-left: 0vw;
         max-width: 85%;
         text-align: left;
         padding-top: 0vh;
@@ -754,17 +809,22 @@ a {
 
 @media screen and (max-width: 602px) {
     .visitor-header{
-        font-size: 32pt;
         margin-top: 28vh;
+    }
+    .page-header {
+        font-size: 32pt;
     }
     .visitor-background {
         object-fit:cover;
     }
-    .admission-hours {
+    .h1-font {
         font-size: 24pt;
     }
-    .directions {
-        font-size: 24pt;
+    .h2-font {
+        font-size: 18pt;
+    }
+    .p1-font {
+        font-size: 12pt;
     }
     .ping {
         width: 35%;
@@ -779,12 +839,7 @@ a {
     .asset {
         padding-top: 0vh;
     }
-    .festival-rules {
-        font-size: 24pt;
-    }
-    .festival-highlights {
-        font-size: 24pt;
-    }
+
     .h2 {
         font-size: 18pt;
     }
@@ -806,10 +861,21 @@ a {
     .visitor-header {
         z-index: 1;
         position: relative;
+
+    }
+    .page-header {
         font-size: 28pt;
     }
-    .admission-hours {
+    .h1-font {
         font-size: 20pt;
+    }
+    .h2-font {
+        font-size: 16pt;
+    }
+    .card-h2 {
+        font-size: 18pt;
+    }
+    .admission-hours {
         margin-bottom: 3vh;
     }
     .free-admission {
@@ -827,9 +893,6 @@ a {
     }
     .date-time {
         padding: 0vh 6vw;
-    }
-    .directions {
-        font-size: 20pt;
     }
     .h2 {
         font-size: 14pt;

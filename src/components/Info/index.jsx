@@ -27,10 +27,10 @@ const Info = () => {
             <img src = {info} className='visitor-background' alt = 'Visitor Info Graphic'></img>
         </div>
         <div className = 'visitor-img-container'>
-            <h1 className = 'visitor-header'>VISITOR INFORMATION</h1>
+            <h1 className = 'visitor-header page-header'>VISITOR INFORMATION</h1>
         </div>
         <section className = 'admission-container'>
-            <h1 className = 'admission-hours'>ADMISSION AND HOURS</h1>
+            <h1 className = 'admission-hours h1-font'>ADMISSION AND HOURS</h1>
             <div className = 'dragon-container'>
                 <img src = {dragon} className = 'dragon'></img>
                 <div className = 'hours-container'>
@@ -69,7 +69,7 @@ const Info = () => {
             </div>
         </section>
         <section className = 'directions-container'>
-            <h1 className = 'directions'>DIRECTIONS</h1>
+            <h1 className = 'directions h1-font'>DIRECTIONS</h1>
             <div className = 'img-container'>
                 <img src = {map} width = '1250' height = 'auto' className = 'map'></img>
             </div>
@@ -90,7 +90,7 @@ const Info = () => {
             </div>
         </section>
         <section className = 'festival-section'>
-            <h1 className = 'festival-rules h1'>FESTIVAL RULES</h1>
+            <h1 className = 'festival-rules h1-font'>FESTIVAL RULES</h1>
             <div className = 'rules-container'>
                 <div className = 'rules-list'>
                     <li className = 'rules'>NO <span>drugs/drug paraphernalia</span></li>
@@ -107,7 +107,7 @@ const Info = () => {
             </div>
         </section>
         <section className = 'festival-highlights-section'>
-            <h1 className = 'festival-highlights h1'>FESTIVAL HIGHLIGHTS</h1>
+            <h1 className = 'festival-highlights h1-font'>FESTIVAL HIGHLIGHTS</h1>
             <div className = 'highlights-container'>
                 <div className = 'performances card-highlight'>
                     <a href ='/' target ='_blank'>
@@ -130,7 +130,7 @@ const Info = () => {
             </div>
         </section>
         <section className = 'instagram-section'>
-            <h1 className = 'sdtf h1'>#SDTF</h1>
+            <h1 className = 'sdtf h1-font'>#SDTF</h1>
             <p className = 'sdtf-p paragraph'>Follow @sandiegotetfestival on Instagram to see our latest updates</p>
             <div className = 'sdtf-img-container'>
                 <a href ='instagram'>

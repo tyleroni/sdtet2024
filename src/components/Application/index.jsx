@@ -30,13 +30,13 @@ const Application = () => {
             </div> 
         </section>
         <section className = 'vendor-map-app-section'>
-            <h1 className = 'vendor-header'>VENDOR MAP</h1>
+            <h1 className = 'vendor-header h1-font'>VENDOR MAP</h1>
             <div className = 'vendormap-container'>
                 <img src = {vendormap} className = 'vendormap'></img>
             </div>
         </section>
         <section className = 'vendor-rules-section'>
-            <h1 className = 'vendor-header'>VENDOR RULES</h1>
+            <h1 className = 'vendor-header h1-font'>VENDOR RULES</h1>
             <div className = 'toggle-container'>
                 <div className="toggle-switch" >
                 
@@ -88,7 +88,7 @@ const Application = () => {
                 </div>
             </div>
             <div id="content2">
-                <h1 className = 'vendor-header'>FOOD VENDOR RULES:</h1>
+                <h1 className = 'vendor-header h1-font'>FOOD VENDOR RULES:</h1>
                 <div className = 'food-vendor-container'>
                     <div className = 'food-vendor1'>
                         <div className = 'regulatory-compliance'>
@@ -178,7 +178,7 @@ const Application = () => {
                 </div>
             </div>
 
-            <h1 className = 'vendor-header'>APPLY AS A VENDOR</h1>
+            <h1 className = 'vendor-header h1-font'>APPLY AS A VENDOR</h1>
             <div className = 'apply-vendor-container'>
                 <div className ='apply-vendor1 apply-vendor'>
                     <a href = '/'>
@@ -205,7 +205,7 @@ const Application = () => {
             </div>
         </section>
         <section className = 'general-faq-section'>
-            <h1 className = 'h1'>GENERAL FAQ:</h1>
+            <h1 className = 'h1-font faq-header'>GENERAL FAQ:</h1>
             <div className = 'faq-container'>
                 <button class="accordion h2">1.  &nbsp;&nbsp;&nbsp;&nbsp;What time can I start setting up my booth?</button>
                     <div class="panel">

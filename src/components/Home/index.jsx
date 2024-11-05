@@ -132,11 +132,11 @@ const Home = () => {
             <div className = 'newyear-container'>
                 
                 <div className='p-container'>
-                    <h1 className='newyear-head newyear'>NEW YEAR, NEW BEGINNINGS</h1>
-                    <h2 className='newyear-sub newyear'>Năm Mới, Sự Khởi Đầu Mới</h2>
-                    <p className='p1 homep1'>The Tet Festival, or Tết Nguyên Đán is the Vietnamese Lunar New Year celebration, celebrating spring’s arrival. It’s a time for families to reunite, pay respect to ancestors, and welcome the new year with traditions that reflect Vietnamese culture.</p>
-                    <p className='p1 homep1'>In 2025, the festival will celebrate the Year of the Snake, symbolizing good fortune and prosperity. In Vietnamese astrology, the Snake brings reflection and strategic planning. As such, Tet provides a meaningful opportunity for families to set new goals and embrace a fresh start. </p>
-                    <p className='p1 homep1'>May your year be filled with wealth and prosperity. </p>
+                    <h1 className='newyear-head newyear h1-font'>NEW YEAR, NEW BEGINNINGS</h1>
+                    <h2 className='newyear-sub newyear h2-font'>Năm Mới, Sự Khởi Đầu Mới</h2>
+                    <p className='p1-font homep1'>The Tet Festival, or Tết Nguyên Đán is the Vietnamese Lunar New Year celebration, celebrating spring’s arrival. It’s a time for families to reunite, pay respect to ancestors, and welcome the new year with traditions that reflect Vietnamese culture.</p>
+                    <p className='p1-font homep1'>In 2025, the festival will celebrate the Year of the Snake, symbolizing good fortune and prosperity. In Vietnamese astrology, the Snake brings reflection and strategic planning. As such, Tet provides a meaningful opportunity for families to set new goals and embrace a fresh start. </p>
+                    <p className='p1-font homep1'>May your year be filled with wealth and prosperity. </p>
                 </div>
                 <div className = 'lantern-container'>
                     <img src = {lantern} alt = 'lantern and flower decoration' className = 'lantern'></img>
@@ -172,7 +172,7 @@ const Home = () => {
             </div>
         </section>
         <div className = 'sponsor-container'>
-            <h1 className = 'sponsorh1'>THANK YOU TO OUR 2025 SPONSORS</h1>
+            <h1 className = 'sponsorh1 h1-font'>THANK YOU TO OUR 2025 SPONSORS</h1>
             <img src = {border} className = 'border'></img>
             <div className = 'sponsors-icon-container'>
                 <div className = 'icon-container1 icon-container'>

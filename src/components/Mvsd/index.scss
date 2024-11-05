@@ -18,6 +18,12 @@
     color: #281B01;
 }
 
+.h1-font-mvsd {
+    font-family: 'grotesque black';
+    font-size: 28pt;
+    margin-left: 12.3vw;
+}
+
 .mvsd-header-container {
     position:relative;
     top: -14px
@@ -44,7 +50,7 @@
 }
 
 .paragraph1{
-    padding-left:12.3vw;
+    margin-left:12.3vw;
     font-size: 14pt;
     font-family: 'Instrument Sans';
     line-height: 2;
@@ -71,7 +77,8 @@
 }
 
 .polaroid {
-    scale: 110%
+    scale: 100%;
+    margin-top: -4vh;    
 }
 
 .reasons-container {
@@ -295,12 +302,19 @@
     .jan28-container{
         margin-left:1vw;
     }
+    .sdtf-img-container {
+        margin-left: 11.5vw;
+    }
+    .sdtf-margin {
+        margin-left: 12.3vw;
+    }
 }
 
 @media screen and (max-width: 1367px) {
     .polaroid {
         max-width: 100%;
         height: auto;
+        margin-top: 0vh;
     }
     .mvsd-img-container {
         margin-right: 7vw;
@@ -308,6 +322,12 @@
     }
     .reasons-container {
         margin-top: 15vh;
+    }
+    .number {
+        font-size: 32pt;
+    }
+    .explanation {
+        font-size: 24pt;
     }
     .decoration3 {
         max-width: 120%;
@@ -318,14 +338,15 @@
         height: auto;
     }
     .decoration4-container{
-        margin-left: 7vw;
+        margin-left: 3vw;
     }
     .decoration5 {
         max-width: 90%;
         height: auto;
     }
     .decoration5-container{
-        margin-left: 8vw;
+        margin-left: 3vw;
+        max-width:23%;
     }
     .decoration6 {
         max-width: 90%;
@@ -340,28 +361,33 @@
 }
 
 @media screen and (max-width: 1281px) {
-    .h1 {
-        font-size: 28pt;
+    .h1-font-mvsd {
+        font-size: 24pt;
+        margin-left: 7vw;
     }
     .pageant-description {
         font-size: 13pt;
+        margin-left: 7vw;
     }
     .pageant-apply-description {
         font-size: 13pt;
+        margin-left: 7vw;
     }
     .polaroid {
         max-width: 100%;
         height: auto;
+        margin-top: -7vh;
     }
     .number {
-        font-size: 30pt;
+        font-size: 28pt;
     }
     .explanation {
-        font-size: 25pt;
+        font-size: 22pt;
         margin-top: 4vh;
     }
     .how-to-apply-description {
         font-size: 13pt;
+        margin-left: 7vw;
     }
     .apply-btn {
         font-size: 15pt;
@@ -373,6 +399,9 @@
     .reasons-container {
         margin-top: 15vh;
     }
+    .reason {
+        margin-left: 7vw;
+    }
     .decoration3 {
         max-width: 120%;
         height: auto;
@@ -382,18 +411,29 @@
         height: auto;
     }
     .decoration4-container{
-        margin-left: 7vw;
+        margin-left: 5vw;
     }
     .decoration5 {
         max-width: 90%;
         height: auto;
     }
     .decoration5-container{
-        margin-left: 4vw;
+        margin-left: 5vw;
     }
     .decoration6 {
         max-width: 90%;
         height: auto;
+    }
+    .mvsd-instagram-section {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+    .sdtf-margin {
+        margin-left: 7vw;
+    }
+    .sdtf-img-container {
+        margin-left: 6vw;
     }
     .day {
         font-size: 36pt;
@@ -415,22 +455,18 @@
     }
 }
 @media screen and (max-width: 1025px) {
-    .h1 {
-        font-size: 25pt;
-    }
+
     .mvsd-pageant {
         margin-left: 7vw;
     }
     .pageant-description {
         font-size: 12pt;
-        padding-left: 7vw;
     }
     .mvsd-apply-info {
         margin-left: 7vw;
     }
     .pageant-apply-description {
         font-size: 12pt;
-        padding-left: 7vw;
     }
     .polaroid {
         max-width: 120%;
@@ -449,6 +485,7 @@
     }
     .how-to-apply-description {
         font-size: 12pt;
+        padding-left: 0vw;
     }
     .apply-btn {
         font-size: 15pt;
@@ -462,9 +499,6 @@
     }
     .how-to-apply {
         margin-left: 7vw;
-    }
-    .how-to-apply-description {
-        padding-left: 7vw;
     }
     .apply-btn {
         margin-left: 7vw;
@@ -481,14 +515,14 @@
         height: auto;
     }
     .decoration4-container{
-        margin-left: 3vw;
+        margin-left: 1vw;
     }
     .decoration5 {
         max-width: 80%;
         height: auto;
     }
     .decoration5-container{
-        margin-left: 5vw;
+        margin-left: 9vw;
     }
     .jan-container {
         padding: 0vh 3vw
@@ -527,19 +561,15 @@
         width: 100vw;
         font-size: 36pt;
     }
-    .mvsd-pageant {
-        margin-left: 5vw;
+    .h1-font-mvsd {
+        margin-left: 7vw;
     }
+
     .pageant-description {
         font-size: 12pt;
-        padding-left: 5vw;
-    }
-    .mvsd-apply-info {
-        margin-left: 5vw;
     }
     .pageant-apply-description {
         font-size: 12pt;
-        padding-left: 5vw;
     }
     .polaroid {
         max-width: 120%;
@@ -548,7 +578,7 @@
         margin-top: 10vh;
     }
     .reason {
-        margin-left: 5vw;
+        margin-left: 7vw;
     }
     .number {
         font-size: 25pt;
@@ -570,17 +600,14 @@
     .reasons-container {
         margin-top: 15vh;
     }
-    .how-to-apply {
-        margin-left: 5vw;
-    }
     .how-to-apply-description {
-        padding-left: 5vw;
+        padding-left: 0vw;
     }
     .apply-btn {
-        margin-left: 5vw;
+        margin-left: 7vw;
     }
     .mvsd-dates {
-        margin-left: 5vw;
+        margin-left: 7vw;
     }
     .decoration3 {
         max-width: 120%;
@@ -644,9 +671,15 @@
         padding-left: 7.5vw;
     }
     .how-to-apply {
-        margin-left: 5vw;
+        margin-left: 7vw;
         margin-bottom: 0vh;
         padding-bottom: 2vh;
+    }
+    .decoration4 {
+        display: none
+    }
+    .dates1-container {
+        margin-left: 8vw;
     }
     .decoration6 {
         max-width: 100%;
@@ -663,6 +696,9 @@
     .nonresponsive-mvsd {
         display:none;
     }
+    .h1-font-mvsd {
+        font-size: 22pt;
+    }
     .longexplanation {
         padding-left: 6vw;
     }
@@ -671,7 +707,7 @@
     }
     .reason {
         width: 100vw;
-        margin-left: 5vw;
+        margin-left: 7vw;
     }
     .mvsd-info-section {
         max-width: 100vw;
@@ -682,20 +718,18 @@
         font-size: 36pt;
     }
     .mvsd-pageant {
-        margin-left: 5vw;
         width: 85vw;
         max-width: 85vw;
         height: auto;
     }
     .pageant-description {
         font-size: 12pt;
-        padding-left: 5vw;
+
         width: 85vw;
         max-width: 85vw;
         height: auto;
     }
     .mvsd-apply-info {
-        margin-left: 5vw;
         width: 85vw;
         max-width: 85vw;
         height: auto;
@@ -716,23 +750,17 @@
     .reason4 {
         padding-bottom: 1vh;
     }
-    .how-to-apply-description {
-        font-size: 12pt;
-    }
     .apply-btn {
         font-size: 12pt;
     }
     .reasons-container {
         margin-top: 15vh;
     }
-    .how-to-apply {
-        margin-left: 5vw;
-    }
     .how-to-apply-description {
-        padding-left: 5vw;
         width: 85vw;
         max-width: 85vw;
         height: auto;
+        font-size: 12pt;
     }
     .apply-btn {
         margin-left: 5vw;
@@ -754,7 +782,6 @@
         margin-top: 6.5vh;
     }
     .mvsd-pageant {
-        margin-left: 5vw;
         width: 85vw;
         max-width: 85vw;
         height: auto;
@@ -762,13 +789,11 @@
     }
     .pageant-description {
         font-size: 12pt;
-        padding-left: 5vw;
         width: 85vw;
         max-width: 85vw;
         height: auto;
     }
     .mvsd-apply-info {
-        margin-left: 5vw;
         width: 85vw;
         max-width: 85vw;
         height: auto;
@@ -793,9 +818,6 @@
     .reason4 {
         padding-bottom: 1vh;
     }
-    .how-to-apply-description {
-        font-size: 12pt;
-    }
     .apply-btn {
         font-size: 12pt;
     }
@@ -803,11 +825,10 @@
         margin-top: 15vh;
     }
     .how-to-apply {
-        margin-left: 5vw;
+
         font-size: 20pt;
     }
     .how-to-apply-description {
-        padding-left: 5vw;
         width: 85vw;
         max-width: 85vw;
         height: auto;
@@ -832,10 +853,13 @@
     .mvsd-header-container {
         margin-top: 6.2vh;
     }
-    .number {
+    .numberr {
         font-size: 24pt;
-        width: 15vw;
+        max-width: 30vw;
         margin-top: 3.5vh;
+    }
+    .h1-font-mvsd {
+        font-size: 18pt;
     }
 }
 

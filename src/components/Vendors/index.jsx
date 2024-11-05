@@ -13,40 +13,40 @@ const Vendors = () => {
         <section className = 'vendors-header-section'>
             <img src = {vendorheader} className = 'vendorheader'></img>
             <div className = 'vendor-header-container'>
-                <h1 className = 'vendors header'>VENDORS</h1>
+                <h1 className = 'vendors page-header'>VENDORS</h1>
             </div>
             
             
             <div className = 'join-container'>
-                <h1 className = 'h1 join-vendor'>INTERESTED IN JOINING AS A <span>VENDOR</span>?</h1>
+                <h1 className = 'h1-font join-vendor'>INTERESTED IN JOINING AS A <span>VENDOR</span>?</h1>
                 <a href = '/vendor-app' className = 'vendor-btn'>Click Here</a>
             </div>
         </section>
         <section className = 'activities-section'>
-            <h1 className = 'vendor-header'>ACTIVITIES</h1>
+            <h1 className = 'vendor-header h1-font'>ACTIVITIES</h1>
             <div className = 'activity-container'>
                 <div className = 'activity1 activity-card'>
                     <a href ='/' target ='_blank'>
                         <img src = {activity1} className = 'activity1-img activity-img'></img>
-                        <h2 className = 'activity1-h2 activity-header'>Discover Delicious Street Food!</h2>
+                        <h2 className = 'activity1-h2 activity-header h2-font'>Discover Delicious Street Food!</h2>
                     </a>
                 </div>
                 <div className = 'activity2 activity-card'>
                     <a href ='/' target ='_blank'>
                         <img src = {activity2} className = 'activity2-img activity-img'></img>
-                        <h2 className = 'activity1-h2 activity-header'>Explore your Creativity!</h2>
+                        <h2 className = 'activity1-h2 activity-header h2-font'>Explore your Creativity!</h2>
                     </a>
                 </div>
                 <div className = 'activity3 activity-card'>
                     <a href ='/' target ='_blank'>
                         <img src = {activity3} className = 'activity3-img activity-img'></img>
-                        <h2 className = 'activity1-h2 activity-header'>Be Involved with your Community!</h2>
+                        <h2 className = 'activity1-h2 activity-header h2-font'>Be Involved with your Community!</h2>
                     </a>
                 </div>
             </div>         
         </section>
         <section className = 'vendor-map-section'>
-            <h1 className = 'vendor-header'>VENDOR MAP</h1>
+            <h1 className = 'vendor-header h1-font'>VENDOR MAP</h1>
             <div className = 'vendormap-container'>
                 <img src = {vendormap} className = 'vendormap'></img>
             </div>

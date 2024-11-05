@@ -28,9 +28,9 @@ const Mvsd = () => {
             </section>
             <section className = 'mvsd-info-section'>
                 <div className = 'mvsd-info-container'>
-                    <h1 className = 'h1 mvsd-pageant'> WHAT IS THE MISS VIETNAM SD PAGEANT</h1>
+                    <h1 className = 'h1-font-mvsd mvsd-pageant'> WHAT IS THE MISS VIETNAM SD PAGEANT</h1>
                     <p className = 'paragraph1 pageant-description'>Established in 2006 by The Vietnamese American Youth Alliance (VAYA), Miss Vietnam San Diego celebrates the beauty and cultural heritage of the Vietnamese community in San Diego. Our mission is to unite and strengthen the community through women’s empowerment, leadership, and service. In providing a platform and mentorship for youth and goodwill ambassadors, we cultivate community role models and leaders.</p>
-                    <h1 className = 'h1 mvsd-apply-info'> WHY YOU SHOULD APPLY FOR MVSD!</h1>
+                    <h1 className = 'h1-font-mvsd mvsd-apply-info'> WHY YOU SHOULD APPLY FOR MVSD!</h1>
                     <p className = 'paragraph1 pageant-apply-description'>Miss Vietnam San Diego represents the beauty of the Vietnamese community in San Diego, beauty inside and out. Miss Vietnam San Diego is kind, intelligent, and proud of their heritage. Miss Vietnam San Diego always puts the community first.</p>
                 </div>
                 <div className = 'mvsd-img-container'>
@@ -57,7 +57,7 @@ const Mvsd = () => {
                             <h2 className = 'number'>04 / </h2>
                             <h2 className = 'explanation'>Engage with the Vietnamese community</h2>
                         </div>
-                        <h1 className = 'h1 how-to-apply'>HOW TO APPLY</h1>
+                        <h1 className = 'h1-font-mvsd how-to-apply'>HOW TO APPLY</h1>
                         <p className = 'paragraph1 how-to-apply-description'>Thinking about joining next year's cohort? Discover all the exciting details about the Miss Vietnam San Diego pageant! Visit our website to learn more about the application process and embrace your Viet heritage all while serving your community!</p>
                         <a href = '/' className = 'apply-btn'>VISIT MVSD FOR MORE INFO</a>
 
@@ -68,7 +68,7 @@ const Mvsd = () => {
                 </div>
             </section>
             <section className = 'mvsd-dates-section'>
-                <h1 className = 'h1 mvsd-dates'>MVSD IMPORTANT DATES</h1>
+                <h1 className = 'h1-font-mvsd mvsd-dates'>MVSD IMPORTANT DATES</h1>
                 <div className = 'mvsd-dates-responsive'>
                     <div className = 'reason1 reason'>
                         <h2 className = 'number numberr'>JAN 04 / </h2>
@@ -131,8 +131,8 @@ const Mvsd = () => {
                 </div>
             </section>
             <section className = 'mvsd-instagram-section'>
-            <h1 className = 'sdtf h1'>#MVSD</h1>
-            <p className = 'sdtf-p paragraph2'>Follow @missvietnamsandiego on Instagram to see their latest updates!</p>
+            <h1 className = 'sdtf h1-font-mvsd'>#MVSD</h1>
+            <p className = 'sdtf-p paragraph2 sdtf-margin'>Follow @missvietnamsandiego on Instagram to see their latest updates!</p>
             <div className = 'sdtf-img-container'>
                 <a href ='instagram'>
                     <img src = {mvsdinsta1} className = 'mvsdinsta1-img insta-img sample' alt = 'insta1 image'></img>

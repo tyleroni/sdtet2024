@@ -276,7 +276,7 @@
 
 .faq-container {
     margin-top: 7vh;
-    margin-left: 12.3vw;
+    margin-left: 15vw;
     padding-bottom: 4em;
 }
 
@@ -389,6 +389,9 @@
     margin-left: 5vw;
     margin-right: 5vw;
 }
+.faq-header {
+    text-align: center;
+}
 .vendor-responsive {
     display: none;
 }
@@ -408,6 +411,10 @@
 @media screen and (max-width: 1601px) {
     .app-img-header-container {
         max-width: 50vw;
+    }
+    .h1-font {
+        font-family: 'Grotesque Black';
+        font-size: 36pt;
     }
     .vendor-title {
         font-size: 40pt;
@@ -439,6 +446,10 @@
 @media screen and (max-width: 1441px) {
     .vendor-title {
         font-size: 36pt;
+    }
+    .h1-font {
+        font-family: 'Grotesque Black';
+        font-size:32pt;
     }
     .app-h1 {
         font-size: 20pt;
@@ -490,6 +501,10 @@
 @media screen and (max-width: 1367px) {
     .vendor-title {
         font-size: 32pt;
+    }
+    .h1-font {
+        font-family: 'Grotesque Black';
+        font-size:32pt;
     }
     .app-h1 {
         font-size: 20pt;
@@ -613,6 +628,10 @@
         max-width: 50vw;
         width: 50vw
     }
+    .h1-font {
+        font-family: 'Grotesque Black';
+        font-size:28pt;
+    }
     .app-h1 {
         font-size: 18pt;
     }
@@ -700,6 +719,10 @@
         width: 40vw;
         font-size: 24pt;
     }
+    .h1-font {
+        font-family: 'Grotesque Black';
+        font-size:28pt;
+    }
     .app-h1 {
         margin-left: auto;
         margin-right: auto;
@@ -714,14 +737,11 @@
         max-width: 50vw;
         width: 50vw;
     }
-    .vendor-header {
-        font-size: 32pt;
-    }
     .vendorapp-img {
         width: 500px;
         scale: 112%;
     }
-    .h2 {
+    .rule-h2 {
         text-wrap: wrap;
     }
     .regulatory-compliance {
@@ -758,6 +778,9 @@
     .vendor-responsive {
         display: block;
     }
+    .h1-font {
+        font-size: 24pt;
+    }
     .vendor-title {
         margin-left: 15vw;
         margin-right:15vw;
@@ -777,9 +800,6 @@
         width: 60vw;
         font-size: 18pt;
         text-align: center;
-    }
-    .vendor-header {
-        font-size: 28pt;
     }
     .vendorapp-imgr {
         margin-left: -3.5vw;
@@ -820,7 +840,7 @@
         width: 70vw;
     }
     .rule-h2 {
-        font-size: 22pt;
+        font-size: 16pt;
     }
 }
 
@@ -923,14 +943,14 @@
         font-size: 14pt;
         text-align: center;
     }
+    .h1-font {
+        font-size: 24pt;
+    }
     .vendor-map-app-section {
         padding-top: .5vh;
     }
     .vendorapp-imgr {
         height: 20vh;
-    }
-    .vendor-header {
-        font-size: 20pt;
     }
     .rule-icon {
         max-width: 30vw;

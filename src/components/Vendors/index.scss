@@ -7,13 +7,22 @@
 .join-container {
     display: flex;
     margin-top: 22vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 }
 .vendors {
     margin-top: -30vh;
     color: #FEFAE6;
 }
+.h1-font {
+    font-size: 36pt;
+}
+.h2-font {
+    font-size: 24pt;
+}
 
-.h1 span {
+.h1-font span {
     color: #D2512F;
 }
 
@@ -51,7 +60,6 @@
 
 .join-vendor {
     margin-top: 7vh;
-    margin-left: 20vw;
     
 }
 
@@ -62,13 +70,13 @@
 
 .vendor-header {
     text-align: center;
-    font-family: 'Grotesque Black';
-    font-size: 36pt;
+    
 }
 
 .activity-container {
     display:flex;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
 }
 
@@ -80,8 +88,6 @@
 .activity-header {
     text-align: center;
     color: #260703;
-    font-family: 'Grotesque Black';
-    font-size: 24pt;
     text-wrap: wrap;
     justify-self: center;
     width: 80%;
@@ -129,12 +135,20 @@
     .activity-card {
         padding: 0vh 1.5vw;
     }
+    .h1-font {
+        font-size: 36pt;
+    }
+    .h2-font {
+        font-size: 24pt;
+    }
 }
 
 @media screen and (max-width: 1536px) {
-    .join-vendor{
-        font-size: 28pt;
-    
+    .h1-font {
+        font-size: 32pt;
+    }
+    .h2-font {
+        font-size: 20pt;
     }
 }
 
@@ -142,9 +156,11 @@
     .activity-card {
         padding: 0vh 2.5vw;
     }
-    .join-vendor {
-        margin-left: 15vw;
-        font-size: 28pt;
+    .h1-font {
+        font-size: 32pt;
+    }
+    .h2-font {
+        font-size: 20pt;
     }
     .vendormap {
         max-width: 100%;
@@ -155,8 +171,16 @@
 }
 
 @media screen and (max-width: 1367px) {
-    .join-vendor{
-        margin-left: 18vw;
+    .h1-font {
+        font-size: 32pt;
+    }
+    .h2-font {
+        font-size: 20pt;
+    }
+    .join-container {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
     }
     .vendor-header-container{
         margin-top: -30vh;
@@ -167,13 +191,12 @@
         padding: 0vh 2vw;
     }
     .activity-container {
-        margin-left: -2vw;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
     }
     .activity-header {
         font-size: 22pt;
-    }
-    .join-vendor{
-        margin-left: 15vw;
     }
     .activity1-img {
         max-width: 100%;
@@ -190,20 +213,16 @@
 }
 @media screen and (max-width: 1025px) {
     .join-container {
-        margin-top: 18vh;
+        margin-top: 20vh;
+    }
+    .h1-font {
+        font-size: 28pt;
+    }
+    .h2-font {
+        font-size: 18pt;
     }
     .activity-card {
         padding: 0vh 2vw;
-    }
-    .activity-container {
-        margin-left: -2vw;
-    }
-    .activity-header {
-        font-size: 20pt;
-    }
-    .join-vendor{
-        margin-left: 12vw;
-        font-size: 24pt;
     }
     .vendor-btn{
         font-size: 20pt;
@@ -227,9 +246,13 @@
         flex-direction: column;
         text-align: center;
         width: 100vw;
+        margin-top: 24vh;
     }
-    .join-vendor {
-        margin-left: 0vw;
+    .h1-font {
+        font-size: 28pt;
+    }
+    .h2-font {
+        font-size: 18pt;
     }
     .vendor-btn {
         margin-left: auto;
@@ -240,9 +263,6 @@
     .activity-img {
         max-width: 100%;
         height:auto;
-    }
-    .activity-header {
-        font-size: 18pt;
     }
 }
 
@@ -251,11 +271,17 @@
         height: 300px; 
         width: auto;
     }
+    .h1-font {
+        font-size: 24pt;
+    }
+    .activity-header {
+        font-size: 14pt;
+    }
     .vendor-header-container {
-        margin-top: -23vh;
+        margin-top: 10vh;
     }
     .join-container {
-        margin-top: 12vh;
+        margin-top: 14vh;
     }
     .vendor-btn {
         margin-left: auto;
@@ -268,42 +294,39 @@
         max-width: 100%;
         height:auto;
     }
-    .vendor-header {
-        font-size: 24pt;
-    }
-    .activity-header {
-        font-size: 14pt;
-    }
+
 }
 
 @media screen and (max-width: 415px) {
     .join-vendor {
         padding: 0vh 5vw;
     }
+    .h1-font {
+        font-size: 18pt;
+    }
     .vendor-btn {
         margin-left: auto;
         margin-right: auto;
         max-width: 40vw;
         margin-top: 1vh;
-        font-size: 16pt;
+        font-size: 14pt;
         text-wrap: nowrap;
     }
     .activity-container {
         flex-direction: column;
+        text-align: center;
     }
     .activity-card {
         width: 100vw;
+        padding-left: 0vw;
     }
     .activity-img {
         max-width: 75%;
         height:auto;
         
     }
-    .vendor-header {
-        font-size: 28pt;
-    }
     .activity-header {
-        font-size: 18pt;
+        font-size: 16pt;
     }
 }
 
