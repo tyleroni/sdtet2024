@@ -159,14 +159,19 @@ const Home = () => {
                 <img src = {card4} className='card4 card' alt='Polaroid attached to clothes line. 2025'></img>
             </div>
             <div className = 'card-container-responsive'>
+                <div className = 'card-container2'>
+                    <img src = {card1} className='card1-responsive card' alt='Polaroid attached to clothes line. 2025'></img>
+                    <img src = {card2} className='card2-responsive card' alt='Polaroid attached to clothes line. 2025'></img>
+                </div>
                 <img src = {string2} alt = 'clothes line' className = 'string2'></img>
+                
                 <div className = 'card-container2'>
                     <img src = {card3} className='card3-responsive card' alt='Polaroid attached to clothes line. 2025'></img>
                     <img src = {card4} className='card4-responsive card' alt='Polaroid attached to clothes line. 2025'></img>
                 </div>
                 
             </div>
-            <div className = 'decoration container'>
+            <div className = 'decoration-container'>
                 <img src = {decoration1} className = 'decoration1 decoration'></img>
                 <img src = {decoration2} className = 'decoration2 decoration'></img>
             </div>

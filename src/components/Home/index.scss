@@ -142,20 +142,20 @@
     
 }
 .card1 {
-    top: -3vh;
-    margin-left: 18em;
+    top: -4vh;
+    margin-left: 12em;
     
 }
 .card2 {
-    top:2vh;
+    top:3vh;
     
 }
 .card3 {
-    top:-8vh;
+    top:-6vh;
     
 }
 .card4 {
-    top:-20vh;
+    top:-17vh;
     
 }
 
@@ -180,26 +180,25 @@
     position: relative;
     margin-top: 10vh;
     margin-bottom: 10vh;
-    margin-left: 3vw;
     width: 100%;
 }
 
 .sponsorh1{
-    width: 50%;
-    display: block;
+    width: 100%;
     text-align: center;
     font-family: 'Grotesque Black';
     font-weight: bolder;
-    margin-left: 20vw;
     margin-top: -3em;
+    margin-left: 19vw;
     margin-bottom: 10vh;
-    font-size: 36pt;
 }
 
 .border {
     position: relative;
     margin-top: -4em;
-    margin-left: 19em;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
 }
 .sponsors-icon-container {
     display:flex;
@@ -209,7 +208,7 @@
     display: grid;
     position: relative;
     margin-top:-36em;
-    left: 23em;
+    left: 27em;
     padding: 0em 2em;
 }
 
@@ -409,20 +408,20 @@
         
     }
     .card1 {
-        top: 17vh;
-        margin-left: 18em;
+        top: -4vh;
+        margin-left: 10em;
         
     }
     .card2 {
-        top:22vh;
+        top:3vh;
         
     }
     .card3 {
-        top:14vh;
+        top:-6vh;
         
     }
     .card4 {
-        top:4vh;
+        top:-17vh;
         
     }
     
@@ -430,17 +429,16 @@
         position: relative;
         margin-top: 16vh;
     }
-    
     .decoration1 {
         scale: 110%;
-        top: -7em;
+        top: -12em;
         left: 14em;
     }
     
     .decoration2 {
         scale: 110%;
         float:right;
-        top: -13em;
+        top: -20em;
         right: 14em;
     }
     .sponsorh1{
@@ -450,6 +448,9 @@
         font-family: 'Grotesque Black';
         font-weight: bolder;
         margin-left: 20vw;
+    }
+    .sponsor-container {
+        margin-top: 0vh;
     }
 }
 
@@ -487,26 +488,25 @@
     .card {
         padding: 0em 4em;
         position:relative;
-        max-width: 100%;
         height: auto;
         
     }
     .card1 {
-        top: 14vh;
-        margin-left: 6em;
-        
+        top: 1vh;
+        margin-left: 6vh;
+        width: 18%;
     }
     .card2 {
-        top:22vh;
-        
+        top:1vh;
+        width: 15%;
     }
     .card3 {
-        top:13vh;
-        
+        top:-8vh;
+        width: 14%;
     }
     .card4 {
-        top:2vh;
-        
+        top:-22vh;
+        width: 17%;
     }
     
     .decoration {
@@ -538,13 +538,35 @@
         margin-left: 0vw;
     }
     .border {
-        margin-left: 11vw;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        display:block;
     }
     .icon-container {
         
         margin-top:-36em;
         left: 14vw;
         padding: 0em 2em;
+    }
+}
+@media screen and  (max-width: 1537px) {
+    .card1 {
+        top: 0vh;
+        margin-left: 6vh;
+        width: 17%;
+    }
+    .card2 {
+        top:3vh;
+        width: 15%;
+    }
+    .card3 {
+        top:-5vh;
+        width: 14%;
+    }
+    .card4 {
+        top: -19vh;
+        width: 17%;
     }
 }
 
@@ -572,26 +594,26 @@
     }
     
     .card {
-        padding: 0em 4em;
+        padding: 0em 3em;
         position:relative;
         height: auto;
         
     }
     .card1 {
-        top: 13vh;
+        top: 1vh;
         margin-left: 5em;
         max-width: 18%;
     }
     .card2 {
-        top:20vh;
+        top:3vh;
         max-width: 17%;
     }
     .card3 {
-        top:9vh;
+        top:-4vh;
         max-width: 15%;
     }
     .card4 {
-        top:-2vh;
+        top:-16vh;
         max-width: 19%;
     }
     
@@ -618,19 +640,17 @@
         text-align: center;
         font-family: 'Grotesque Black';
         font-weight: bolder;
-        margin-left: 24vw;
+        margin-left: 27vw;
         text-wrap: nowrap;
     }
     .sponsor-container {
         margin-left: 0vw;
     }
-    .border {
-        margin-left: 7vw;
-    }
+
     .icon-container {
         
         margin-top:-36em;
-        left: 11vw;
+        left: 10vw;
         padding: 0em 2em;
     }
 }
@@ -686,26 +706,26 @@
     }
     
     .card {
-        padding: 0em 4em;
+        padding: 0em 3em;
         position:relative;
         height: auto;
         
     }
     .card1 {
-        top: 13vh;
+        top: 1vh;
         margin-left: 5em;
         max-width: 17%;
     }
     .card2 {
-        top:19vh;
+        top:3vh;
         max-width: 16%;
     }
     .card3 {
-        top:9vh;
+        top:-4vh;
         max-width: 14%;
     }
     .card4 {
-        top:0vh;
+        top:-16vh;
         max-width: 18%;
     }
     
@@ -739,7 +759,7 @@
         margin-left: 0vw;
     }
     .border {
-        margin-left: 5vw;
+
         max-width: 90%;
         height: auto;
     }
@@ -827,26 +847,26 @@
     }
     
     .card {
-        padding: 0em 4em;
+        padding: 0em 3em;
         position:relative;
         height: auto;
         
     }
     .card1 {
-        top: 12vh;
-        margin-left: 5em;
+        top: 1vh;
+        margin-left: 3em;
         max-width: 17%;
     }
     .card2 {
-        top:18vh;
+        top:4vh;
         max-width: 16%;
     }
     .card3 {
-        top:8vh;
+        top:-3vh;
         max-width: 14%;
     }
     .card4 {
-        top:-1vh;
+        top:-15vh;
         max-width: 18%;
     }
     
@@ -873,7 +893,7 @@
         text-align: center;
         font-family: 'Grotesque Black';
         font-weight: bolder;
-        margin-left: 25vw;
+        margin-left: 23vw;
         text-wrap: nowrap;
         font-size: 32pt;
     }
@@ -881,7 +901,7 @@
         margin-left: 0vw;
     }
     .border {
-        margin-left: 5vw;
+
         max-width: 90%;
         height: auto;
     }
@@ -969,32 +989,32 @@
     }
     
     .card {
-        padding: 0em 2.5em;
+        padding: 0em 2em;
         position:relative;
         height: auto;
         
     }
     .card1 {
-        top: 11vh;
+        top: 0vh;
         margin-left: 5em;
         max-width: 16%;
     }
     .card2 {
-        top:15vh;
+        top:4vh;
         max-width: 15%;
     }
     .card3 {
-        top:8vh;
+        top:-4vh;
         max-width: 13%;
     }
     .card4 {
-        top:1vh;
+        top:-10vh;
         max-width: 17%;
     }
     
     .decoration {
         position: relative;
-        margin-top: 18vh;
+        margin-top: 25vh;
     }
     
     .decoration1 {
@@ -1015,7 +1035,7 @@
         text-align: center;
         font-family: 'Grotesque Black';
         font-weight: bolder;
-        margin-left: 20vw;
+        margin-left: 21vw;
         text-wrap: nowrap;
     }
     .sponsor-container {
@@ -1137,12 +1157,13 @@
     }
     .card1 {
         top: 10vh;
-        margin-left: 16vw;
-        max-width: 30%;
+        margin-left: 0vw;
+        display: none;
     }
     .card2 {
         top:7vh;
-        max-width: 27%;
+        max-width: 1000%;
+        display:none;
     }
     .card3 {
         display:none;
@@ -1151,18 +1172,27 @@
         display:none;
     }
     .string2 {
-        margin-top: -2vh;
+        margin-top: -6vh;
         width: 120%;
         z-index: -1;
     }
+    .card1-responsive {
+        top:3vh;
+        max-width: 34%;
+        margin-left: 7vw;
+    }
+    .card2-responsive {
+        top: -1vh;
+        max-width: 30%;
+    }
     .card3-responsive {
-        top:-3vh;
+        top:-4vh;
         max-width: 26%;
         transform: rotate(355deg);
         margin-left: 16vw;
     }
     .card4-responsive {
-        top:-13vh;
+        top:-14vh;
         max-width: 34%;
     }
     .card-container-responsive {
@@ -1181,7 +1211,7 @@
         text-align: center;
         font-family: 'Grotesque Black';
         font-weight: bolder;
-        margin-left: 1vw;
+        margin-left: 0vw;
         text-wrap: nowrap;
     }
     .border {
@@ -1252,17 +1282,17 @@
         height: auto;
         
     }
-    .card1 {
-        top: 9vh;
-        margin-left: 16vw;
+    .card1-responsive {
+        top:3vh;
+        max-width: 34%;
+        margin-left: 7vw;
+    }
+    .card2-responsive {
+        top: -1vh;
         max-width: 30%;
     }
-    .card2 {
-        top:7vh;
-        max-width: 27%;
-    }
     .string2 {
-        margin-top: -2vh;
+        margin-top:-7vh;
         width: 120%;
         z-index: -1;
     }
@@ -1270,10 +1300,10 @@
         top:-3vh;
         max-width: 26%;
         transform: rotate(355deg);
-        margin-left: 16vw;
+        margin-left: 13vw;
     }
     .card4-responsive {
-        top:-12vh;
+        top:-13vh;
         max-width: 34%;
     }
     
@@ -1289,6 +1319,20 @@
         scale: 70%;
         width: 90%;
         justify-content: center;
+    }
+    .kingfish {
+        width: 75%;
+        padding: 1.5vh .8vw
+    }
+    .seven {
+        padding: 3vh 0vw;
+    }
+    .regal {
+        padding-top: 4vh;
+    }
+    .citysd {
+        padding-top: 5vh;
+        padding-bottom: 0vh;
     }
 }
 
@@ -1383,14 +1427,14 @@
         height: auto;
         
     }
-    .card1 {
-        top: 1vh;
-        margin-left: 14vw;
-        max-width: 30%;
+    .card1-responsive {
+        top:3vh;
+        max-width: 34%;
+        margin-left: 7vw;
     }
-    .card2 {
-        top:-1vh;
-        max-width: 27%;
+    .card2-responsive {
+        top: 0vh;
+        max-width: 30%;
     }
     .string2 {
         margin-top: -7vh;
@@ -1398,14 +1442,15 @@
         z-index: -1;
     }
     .card3-responsive {
-        top:-2vh;
+        top:-3vh;
         max-width: 26%;
         transform: rotate(355deg);
         margin-left: 13vw;
     }
     .card4-responsive {
-        top:-10vh;
+        top:-12vh;
         max-width: 34%;
+        z-index: -2;
     }
     .sponsorh1{
         margin-left: 1vw;
@@ -1533,17 +1578,17 @@
         height: auto;
         
     }
-    .card1 {
-        top: -4.5vh;
-        margin-left: 8vw;
-        max-width: 35%;
+    .card1-responsive {
+        top:4vh;
+        max-width: 34%;
+        margin-left: 7vw;
     }
-    .card2 {
-        top:-7.5vh;
+    .card2-responsive {
+        top: 2vh;
         max-width: 30%;
     }
     .string2 {
-        margin-top: -10vh;
+        margin-top: -3vh;
         width: 120%;
         z-index: -1;
     }
@@ -1554,7 +1599,7 @@
         margin-left: 9vw;
     }
     .card4-responsive {
-        top:-7vh;
+        top:-6vh;
         max-width: 40%;
     }
     .sponsorh1{
@@ -1584,6 +1629,8 @@
     }
     .sponsorh1 {
         margin-bottom: 5vh;
+        text-wrap: wrap;
+        margin-left: 0vw;
     }
     .iconr {
         padding: 1em 0em;
@@ -1635,17 +1682,11 @@
         height: auto;
         
     }
-    .card1 {
-        top: -5vh;
-        margin-left: 6vw;
-        max-width: 37%;
-    }
-    .card2 {
-        top:-7.5vh;
-        max-width: 32%;
+    .card2-responsive {
+        top: 2vh;
+        max-width: 30%;
     }
     .string2 {
-        margin-top: -10vh;
         width: 120%;
         z-index: -1;
     }
@@ -1656,15 +1697,14 @@
         margin-left: 7vw;
     }
     .card4-responsive {
-        top:-6vh;
+        top:-5vh;
         max-width: 41%;
     }
     .sponsors-icon-container {
         display:none;
     }
     .sponsorh1{
-        margin-left: 1vw;
-        text-wrap: nowrap;
+
         font-size: 18pt;
     }
     .border1 {
@@ -1683,7 +1723,7 @@
         margin-top: -17vh;
     }
     .string {
-        position:absolute;
+        position:relative;
         margin-top: -2em;
         width: 102%;
     }
@@ -1694,17 +1734,11 @@
         height: auto;
         
     }
-    .card1 {
-        top: -5.2vh;
-        margin-left: 6vw;
-        max-width: 37%;
-    }
-    .card2 {
-        top:-7.8vh;
-        max-width: 32%;
+    .card2-responsive {
+        top: 3vh;
+        max-width: 30%;
     }
     .string2 {
-        margin-top: -10vh;
         width: 120%;
         z-index: -1;
     }
@@ -1715,12 +1749,11 @@
         margin-left: 7vw;
     }
     .card4-responsive {
-        top:-6vh;
+        top:-5vh;
         max-width: 40%;
     }
     .sponsorh1{
-        margin-left: 1vw;
-        text-wrap: nowrap;
+
         font-size: 16pt;
     }
     .border1 {
@@ -1755,5 +1788,8 @@
     }
     .sponsor-icon {
         height: 100%;
+    }
+    .carousel1 {
+        margin-bottom: 2vh;
     }
 }
