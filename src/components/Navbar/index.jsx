@@ -1,8 +1,16 @@
 import './index.scss'
 import sdtetlogo from '../../assets/images/SDTet.png'
+import { NavLink } from 'react-router-dom'
 import { Link } from 'react-router-dom'
+import React, { useState } from 'react'
 
-const Navbar = () => ( 
+const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
+    return ( 
     <>
     
     <div className = 'navbar1'>
@@ -20,16 +28,21 @@ const Navbar = () => (
                     </div>
                 </div>
             </div>
-            <nav>
+            <button className = 'hamburger' onClick = {toggleMenu}>
+                <div className = 'line'></div>
+                <div className = 'line'></div>
+                <div className = 'line'></div>
+            </button>
+            <nav className = {`nav ${isOpen ? "open" : ""}`}>
                 <ul className = 'navbuttons'>
-                    <li className = 'navhome'><a href = '/'>HOME</a></li>
-                    <li className = 'navvisitor'><a href = '/info'>VISITOR INFO</a></li>
-                    <li className = 'naventertainment'><a href = '/entertainment'>ENTERTAINMENT</a></li>
-                    <li className = 'navvendors'><a href = '/vendors'>VENDORS</a></li>
-                    <li className = 'navschedule'><a href = '/schedule'>SCHEDULE</a></li>
-                    <li className = 'navmvsd'><a href = '/mvsd'>MISS VIETNAM SD</a></li>
-                    <li className = 'navsponsors'><a href = '/sponsors'>SPONSORS</a></li>
-                    <li className = 'navvolunteers'><a href = '/volunteers'>VOLUNTEERS</a></li>
+                    <li className="navhome"><Link to="/">HOME</Link></li>
+                    <li className="navvisitor"><Link to="/info">VISITOR INFO</Link></li>
+                    <li className="naventertainment"><Link to="/entertainment">ENTERTAINMENT</Link></li>
+                    <li className="navvendors"><Link to="/vendors">VENDORS</Link></li>
+                    <li className="navschedule"><Link to="/schedule">SCHEDULE</Link></li>
+                    <li className="navmvsd"><Link to="/mvsd">MISS VIETNAM SD</Link></li>
+                    <li className="navsponsors"><Link to="/sponsors">SPONSORS</Link></li>
+                    <li className="navvolunteers"><Link to="/volunteers">VOLUNTEERS</Link></li>
                 </ul>
             </nav>
             
@@ -38,5 +51,6 @@ const Navbar = () => (
     </div>
     </>
 )
-
+}
 export default Navbar
+

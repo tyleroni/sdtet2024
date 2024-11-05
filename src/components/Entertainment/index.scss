@@ -22,12 +22,14 @@
     color: #F14830;
     font-size: 24pt;
     margin: 1vh 0vw;
+    position: relative;
+    z-index: -3;
 }
 
 .ticket1-container {
     position:relative;
     margin-top: 10vh;
-    z-index:5;
+    z-index:-3;
     text-align: center;
 }
 

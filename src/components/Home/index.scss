@@ -1,8 +1,11 @@
 .homevideo-container{
     text-align: center;
     margin: -19px 0px 0px 0px;
-    z-index: 2;
+    z-index: -1;
     background-color: black;
+}
+.homevideo {
+    pointer-events: none;
 }
 
 .header-container {
@@ -302,7 +305,7 @@
 }
 .prev{
     margin-top: 6vh;
-    margin-left: 4vw;
+    margin-left: 0vw;
     margin-bottom: 2vh;
     padding: .6em 1.5em;
     border-radius: 25pt;

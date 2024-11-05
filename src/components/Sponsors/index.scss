@@ -2,6 +2,7 @@
     text-align: center;
     position: relative;
     top: -38vh;
+    z-index: -2;
 }
 
 .sponsors-section{
@@ -13,6 +14,7 @@
 .sponsor-banner-container {
     position: relative;
     top: -2.1vh;
+    z-index: -2;
 }
 
 .sponsor-info-container {
@@ -26,6 +28,8 @@
     font-size: 48pt;
     font-weight: 500;
     color: #FEFAE6;
+    position: relative; 
+    z-index: -1;
 }
 
 .sponsor-h {
@@ -91,6 +95,11 @@
     color: white;
     letter-spacing: 2px;
 
+}
+
+.worm {
+    position: relative;
+    z-index: -3;
 }
 
 @media screen and (min-width: 2040px) {
