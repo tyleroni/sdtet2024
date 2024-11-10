@@ -1,6 +1,5 @@
 import './index.scss'
 import sdtetlogo from '../../assets/images/SDTet.png'
-import { NavLink } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import React, { useState } from 'react'
 
@@ -18,7 +17,6 @@ const Navbar = () => {
     
     <div className = 'navbar1'>
         <h1 className = 'vaya'>VIETNAMESE-AMERICAN YOUTH ALLIANCE + VIETNAMESE FEDERATION OF SAN DIEGO PRESENTS</h1>
-        <hr></hr>
         <div className = 'navbar2'>
             <div className = 'leftnavbar'>
                 <Link className = 'logo' to = '/'>
@@ -27,7 +25,7 @@ const Navbar = () => {
                 <div className = 'navinfo'>
                     <div className = 'navdate-container'>
                         <p className = 'navdate'>JAN 31 - FEB 2</p>
-                        <p className = 'navlocation'>MIRA MESA PARK</p>
+                        <p className = 'navlocation'>NTC PARK</p>
                     </div>
                 </div>
             </div>

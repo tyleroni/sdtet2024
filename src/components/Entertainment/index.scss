@@ -79,6 +79,7 @@
     border-bottom: 1px solid black;
     border-left: 1px solid black;
     border-right: 1px dashed black;
+    width: 24vw;
 }
 
 .feb {
@@ -191,6 +192,7 @@
     max-width: 61vw;
     margin-left: 19vw;
     margin-right: 19vw;
+    display:none;
 }
 
 .philip-card {
@@ -198,6 +200,7 @@
     max-width: 60vw;
     margin-left: 19.5vw;
     margin-right: 19.5vw;
+    display:none;
 }
 
 .huyen-card {
@@ -205,6 +208,7 @@
     max-width: 61vw;
     margin-left: 19vw;
     margin-right: 19vw;
+    display:none;
 }
 
 .cookieright-huyen {
@@ -618,6 +622,7 @@
 @media screen and (max-width: 1601px){
     .headline-card-header{
         font-size: 48pt;
+        width: 30vw;
     }
     .feb{
         font-size: 36pt;
@@ -630,9 +635,11 @@
     }
     .performing{
         font-size: 21pt;
+        margin: 2vh 0vw;
     }
     .zodiac{
         font-size: 21pt;
+        margin: 2vh 0vw;
     }
     .trina-card {
         text-align: left;
@@ -656,7 +663,7 @@
     }
     .justin-card {
         text-align: left;
-        max-width: 70vw;
+        max-width: 71vw;
         margin-left: 15vw;
         margin-right: 15vw;
         margin-top: 7vh;
@@ -677,14 +684,14 @@
     
     }
     .leatea-left-container {
-        margin-right: .1vw;
+        margin-right: 0vw;
         margin-left: 2vw;
-        padding-right: 4.4vw;
+        padding-right: 4.55vw;
         text-wrap: nowrap;
     }
     .beta-left-container {
         margin-left: 2vw;
-        margin-right: -.45vw;
+        margin-right: 4.6vw;
         text-wrap: nowrap;
     }
     .culturalvillage {
@@ -701,7 +708,7 @@
 
 @media screen and (max-width: 1537px){
     .headline-card-header{
-        font-size: 44pt;
+        font-size: 46pt;
     }
     .feb{
         font-size: 37pt;
@@ -762,14 +769,14 @@
     
     }
     .leatea-left-container {
-        margin-right: .1vw;
+        margin-right: 0vw;
         margin-left: 2vw;
-        padding-right: 1.6vw;
+        padding-right: 1.75vw;
         text-wrap: nowrap;
     }
     .beta-left-container {
         margin-left: 2vw;
-        margin-right: -3.3vw;
+        margin-right: 1.8vw;
         text-wrap: nowrap;
     }
     .culturalvillage {
@@ -807,27 +814,27 @@
     }
     .trina-card {
         text-align: left;
-        
+        max-width: 73vw;
         margin-left: 14vw;
         margin-right: 8vw;
     }
     
     .philip-card {
         text-align: left;
-        
+        max-width: 73vw;
         margin-left: 14.5vw;
         margin-right: 10vw;
     }
     
     .huyen-card {
         text-align: left;
-        
+        max-width: 73vw;
         margin-left: 14vw;
         margin-right: 12vw;
     }
     .justin-card {
         text-align: left;
-        
+        max-width: 73vw;
         margin-left: 14.5vw;
         margin-right: 9vw;
         margin-top: 7vh;
@@ -898,7 +905,7 @@
         padding-right: 1vw;
     }
     .kidstalent-container {
-        border-right: 1px solid black;
+        //border-right: 1px solid black;
     }
 }
 
@@ -1033,6 +1040,9 @@
     }
 }
 @media screen and (max-width: 1281px){
+    .headline-card-header {
+        width: auto;
+    }
     .justin-card {
         text-align: left;
         
@@ -1821,9 +1831,7 @@
         padding: 2vh 0vw;
         border-bottom: 1px solid black;
     }
-    .kidstalent-container {
-        border-right: 1px solid black;
-    }
+    
     .kidstalent-headerr {
         display:block;
         font-size: 26pt;
@@ -1938,6 +1946,7 @@
     }
     .headline-card-header {
         font-size: 16pt;
+        padding-left: 2vw;
     }
     .feb {
         font-size:14pt;
@@ -2094,10 +2103,9 @@
     }
     .kidstalent-header-container {
         padding: 2vh 0vw;
+        max-width: 50vw;
     }
-    .kidstalent-container {
-        border-right: 1px solid black;
-    }
+    
     .kidstalent-headerr {
         display:block;
         font-size: 26pt;
@@ -2320,9 +2328,7 @@
         margin-bottom: 2vh;
     }
 
-    .kidstalent-container {
-        border-right: 1px solid black;
-    }
+    
 
 
 

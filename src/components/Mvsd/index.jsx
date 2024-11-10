@@ -58,7 +58,7 @@ const Mvsd = () => {
                             <h2 className = 'explanation'>Engage with the Vietnamese community</h2>
                         </div>
                         <h1 className = 'h1-font-mvsd how-to-apply'>HOW TO APPLY</h1>
-                        <p className = 'paragraph1 how-to-apply-description'>Thinking about joining next year's cohort? Discover all the exciting details about the Miss Vietnam San Diego pageant! Visit our website to learn more about the application process and embrace your Viet heritage all while serving your community!</p>
+                        <p className = 'paragraph1 how-to-apply-description'>Applications for this year's cohort have unfortunately closed. Please stay tuned in the future for updates!</p>
                         <a href = '/' className = 'apply-btn'>VISIT MVSD FOR MORE INFO</a>
 
                     </div> 

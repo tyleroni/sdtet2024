@@ -19,7 +19,7 @@ const Schedule = () => {
             </div>
         </section>
         <section className = 'schedule-performance-section'>
-            <h1 className = 'header header1 schedule-header'>SCHEDULE OF PERFORMANCE</h1>
+            <h1 className = 'header header1 schedule-header'>SCHEDULE OF PERFORMANCE TBD</h1>
             <h2 className = 'h2-font schedule-h2'>*Exact performance times may change without notice*</h2>
             <div className = 'schedule-key-container'>
                 <div className = 'mainstage-key key-container'>
@@ -338,14 +338,14 @@ const Schedule = () => {
                 <div className = 'sun-date event-dates'>
                     <div className = 'dates-header-container'>
                         <h2 className = 'dates-header2 dates-header'>SUNDAY, FEB 18TH</h2>
-                        <h3 className = 'dates-header3 dates-header sunday-festival'>11:00 AM - 6/9:00 PM</h3>
+                        <h3 className = 'dates-header3 dates-header sunday-festival'>11:00 AM - 9:00 PM</h3>
                     </div>
                     
                 </div>
             </div>
             <div className = 'schedule-times-container'>
                 <div className = 'mainstage-container'>
-                    <h1 className = 'mainstage-header'>MAIN STAGE</h1>
+                    <h1 className = 'mainstage-header'>MAIN STAGE SCHEDULE TBD</h1>
                 </div>
                 <div className = 'schedule-container3'>
                     <div className = 'times-container fri-times-container'>

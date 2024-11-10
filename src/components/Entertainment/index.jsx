@@ -43,7 +43,7 @@ const Entertainment = () => {
                 <div className = 'ticket1-img-container'>
                     <div className = 'ticket1-container'>
                         <h2 className = 'ticket1-h2'>&#40; MAIN STAGE &#41;</h2>
-                        <h1 className = 'headline-header'>HEADLINERS</h1>
+                        <h1 className = 'headline-header'>2025 HEADLINERS</h1>
                         <img src = {ticketline} className = 'ticketline'></img>
 
                         <div className = 'justin-card headline-card'>
@@ -53,7 +53,7 @@ const Entertainment = () => {
                             </div>
                             <div className = 'headline-left-card-content-container'>
                                 <div className = 'headline-left-card1'>
-                                    <h1 className = 'headline-card-header'>JUSTIN NGUY&#202;N</h1>
+                                    <h1 className = 'headline-card-header'>L&Ugrave;U B&Igrave;CH</h1>
                                     <div className = 'headline-left-info-container'>
                                         <div className = 'headline-left-date-container'>
                                             <h1 className = 'feb'>FEB</h1>
@@ -72,7 +72,7 @@ const Entertainment = () => {
                                                 </div>
                                             </div>
                                             <div className = 'zodiac-container headline-performance-container'>
-                                                <h2 className = 'zodiac'>ZODIAC: PIG</h2>
+                                                <h2 className = 'zodiac'>ZODIAC: MONKEY</h2>
                                             </div>
                                         </div>
                                     </div>
@@ -196,12 +196,12 @@ const Entertainment = () => {
             <section className = 'ticket2-section'>
                 <div className = 'ticket2-img-container'>
                     <div className = 'ticket2-container'>
-                        <h1 className = 'headline-header event-header'>EVENTS</h1>
+                        <h1 className = 'headline-header event-header'>2024 EVENTS</h1>
                         <img src = {ticketline} className = 'ticketline'></img>
                     </div>
                     <div className = 'event-container'>
                         <div className = 'performance-banner-container'>
-                            <h2 className = 'performance-banner'>PERFORMANCES</h2>
+                            <h2 className = 'performance-banner'> PAST PERFORMANCES</h2>
                         </div>
                         <div className = 'lion-dance-container'>
                             <div className = 'dragon-and-lion'>
@@ -273,7 +273,7 @@ const Entertainment = () => {
                             </div>
                         </div>
                         <div className = 'performance-banner-container'>
-                            <h2 className = 'performance-banner banner-margin'>COMPETITIONS</h2>
+                            <h2 className = 'performance-banner banner-margin'>PAST COMPETITIONS</h2>
                         </div>
                         <div className = 'competitions1-container'>
                             <div className = 'kidstalent-container'>
@@ -335,7 +335,7 @@ const Entertainment = () => {
                             </div>
                         </div>
                         <div className = 'performance-banner-container'>
-                            <h2 className = 'performance-banner banner-margin'>ATTRACTIONS</h2>
+                            <h2 className = 'performance-banner banner-margin'>PAST ATTRACTIONS</h2>
                         </div>
                         <div className = 'attractions-container'>
                             <div className = 'cultural-village-container'>

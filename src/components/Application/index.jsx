@@ -181,19 +181,19 @@ const Application = () => {
             <h1 className = 'vendor-header h1-font'>APPLY AS A VENDOR</h1>
             <div className = 'apply-vendor-container'>
                 <div className ='apply-vendor1 apply-vendor'>
-                    <a href = '/'>
+                    <a href = 'https://docs.google.com/forms/d/e/1FAIpQLSeR5srL_KXWH43eQC1_qjv1g8BuyqPhmW_zaojO4aoSDjXNDg/viewform' target = '_blank'>
                         <img src = {vendor1} className = 'vendor1'></img>
                         <div className = 'apply-h2'>
-                            <h2 className = 'h2-font rule-h2'>Non-Food Vendor <span> &#8250;</span></h2>
+                            <h2 className = 'h2-font rule-h2'>Non-Food Vendor <span className = 'right-arrow'> &#8250;</span></h2>
                         </div>
                         
                     </a>
                 </div>
                 <div className = 'apply-vendor2 apply-vendor'>
-                    <a href = '/'>
+                    <a href = 'https://docs.google.com/forms/d/e/1FAIpQLSenwhOQKDT4_AJv-FwpphashPwmsyc5fjgZ2sux6gNwQD5epw/viewform' target = '_blank'>
                         <img src = {vendor2} className = 'vendor2'></img>
                         <div className = 'apply-h2'>
-                            <h2 className = 'h2-font rule-h2'>Food Vendor <span> &#8250;</span></h2>
+                            <h2 className = 'h2-font rule-h2'>Food Vendor <span className = 'right-arrow'> &#8250;</span></h2>
                         </div>
                     </a>
                 </div>

@@ -243,10 +243,18 @@
 
 .sponsor-icon:hover {
     display:inline-block;
-    -ms-transform: scale(1.5, 1.5); /* IE 9 */
-    -webkit-transform: scale(1.5, 1.5); /* Safari */
+    -ms-transform: scale(1.5, 1.5); 
+    -webkit-transform: scale(1.5, 1.5); 
     transform: scale(1.5, 1.5);
 }
+
+.sponsor-icon-dentist:hover {
+    display:inline-block;
+    -ms-transform: scale(1.15, 1.15); 
+    -webkit-transform: scale(1.15, 1.15); 
+    transform: scale(1.15, 1.15);
+}
+
 
 .dentistnone {
     display: none;

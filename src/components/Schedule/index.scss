@@ -4,6 +4,9 @@
     top: -33vh;
     z-index: -2;
 }
+.schedulemap {
+    display: none;
+}
 
 .schedule-banner-section {
     margin-top: -1.8vh;
@@ -45,7 +48,7 @@
 }
 
 .key-container {
-    display:flex;
+    display:none;
     padding:2vh 1vw;
 }
 
@@ -180,22 +183,28 @@
     justify-content: center;
 }
 
+.times-container {
+    display:none
+}
 .fri-times-container {
     //margin-right: .5vw;
     //border-left: 1px solid black;
     border-right: 2px solid black;
     margin-bottom: -4vh;
+    
 }
 
 .sat-times-container {
     margin-right: 0vw;
     margin-bottom: -2vh;
+    
 }
 
 .sun-times-container {
     padding-left: 0; 
     margin-bottom: -4vh;
     border-left: 2px solid black;
+    
 }
 
 .cultural-village-header-container {

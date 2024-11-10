@@ -177,7 +177,7 @@ const Home = () => {
             </div>
         </section>
         <div className = 'sponsor-container'>
-            <h1 className = 'sponsorh1 h1-font'>THANK YOU TO OUR 2025 SPONSORS</h1>
+            <h1 className = 'sponsorh1 h1-font'>OUR PREVIOUS 2024 SPONSORS</h1>
             <img src = {border} className = 'border'></img>
             <div className = 'sponsors-icon-container'>
                 <div className = 'icon-container1 icon-container'>
@@ -225,7 +225,7 @@ const Home = () => {
                     </a>
                 </div>
                 <div className = 'icon-container5 icon-container'>
-                    <a href = '/' target = '_blank' className = 'sponsor-icon'>
+                    <a href = '/' target = '_blank' className = 'sponsor-icon-dentist'>
                         <img src = {dentist} className = 'dentist icon'></img>
                     </a>
                     <img src = {dentist} className = 'dentistnone icon'></img>
