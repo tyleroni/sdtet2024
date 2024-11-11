@@ -1,3 +1,16 @@
+#footer {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  position:relative;
+  display:flex;
+  height:30vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  margin-top: 0vh;
+  background-color: #FDF1D8;
+  border-top: 1px solid black;
+}
 .vaya-footer{
     font-family: 'Grotesque bold';
     font-size: 20pt;
@@ -5,7 +18,9 @@
 }
   .footer1-container{
     margin-left: 12.3vw;
+    order: 1;
   }
+  
   .vaya-footer-ny{
     font-family: 'Grotesque bold';
     font-size: 20pt;
@@ -23,7 +38,7 @@
     font-family: 'Grotesque Medium';
     margin-top: -.3vh;
     margin-bottom: .1vh;
-    font-size: 18pt;
+    font-size: 12pt;
     color:.25221C;
   }
   .navinfo{
@@ -49,10 +64,12 @@
     margin-bottom: .5vh;
   }
   .footer2 {
-    margin-left: 25vw;
+    justify-content: right;
+    margin-left: 10vw;
+    order: 2;
   }
   .find-us-address {
-    line-height: .6;
+    line-height: 1;
     font-family: 'Grotesque Bold';
     font-size: 14pt;
   }
@@ -61,5 +78,198 @@
     font-size: 14pt;
   }
   .footer3 {
-    margin-left: 10vw;
+    margin-left: 0vw;
+    margin-right: 12.3vw;
+    order: 2;
+  }
+  .footer-date-responsive {
+    display: none;
+  }
+
+  @media screen and (max-width: 1441px) {
+    .footer1-container {
+      margin-left: 7vw;
+    }
+    .footer3 {
+      margin-right: 7vw;
+    }
+  }
+
+  @media screen and (max-width: 1025px) {
+    .navbutton {
+      font-size: 12pt;
+    }
+    .vaya-footer {
+      font-size: 18pt;
+    }
+    .vaya-footer-ny {
+      font-size: 18pt;
+    }
+    .find-us-address {
+      font-size: 12pt;
+    }
+    .find-us-footer {
+      font-size: 12pt;
+    }
+    .vaya-footer-logo {
+      max-width: 180px;
+      height: auto;
+    }
+  }
+  @media screen and (max-width: 821px) {
+    .navbutton {
+      font-size: 12pt;
+    }
+    .vaya-footer {
+      font-size: 16pt;
+    }
+    .vaya-footer-ny {
+      font-size: 16pt;
+    }
+    .find-us-address {
+      font-size: 12pt;
+    }
+    .find-us-footer {
+      font-size: 12pt;
+    }
+    .vaya-footer-logo {
+      max-width: 170px;
+      height: auto;
+    }
+    .footer2 {
+      margin-left: 5vw;
+    }
+  }
+  @media screen and (max-width: 769px) {
+    .navbutton {
+      font-size: 10pt;
+    }
+    .vaya-footer {
+      font-size: 16pt;
+    }
+    .vaya-footer-ny {
+      font-size: 16pt;
+    }
+    .find-us-address {
+      font-size: 10pt;
+    }
+    .find-us-footer {
+      font-size: 10pt;
+    }
+    .vaya-footer-logo {
+      max-width: 150px;
+      height: auto;
+    }
+    .tet-footer-info {
+      font-size: 10pt;
+    }
+    .footer-browse {
+      font-size: 18pt;
+    }
+  }
+  @media screen and (max-width: 602px) {
+    .navbutton {
+      font-size: 10pt;
+    }
+    .vaya-footer {
+      font-size: 14pt;
+    }
+    .vaya-footer-ny {
+      font-size: 14pt;
+    }
+    .find-us-address {
+      font-size: 10pt;
+    }
+    .find-us-footer {
+      font-size: 10pt;
+    }
+    .vaya-footer-logo {
+      max-width: 150px;
+      height: auto;
+    }
+    .tet-footer-info {
+      font-size: 10pt;
+    }
+    .footer2 {
+      margin-left: 2vw;
+    }
+    .footer3 {
+      margin-right: 5vw;
+    }
+  }
+  @media screen and (max-width: 415px) {
+    .navbutton {
+      font-size: 12pt;
+    }
+    .vaya-footer {
+      display:none;
+    }
+    .vaya-footer-ny {
+      font-size: 14pt;
+      display:none;
+    }
+    #footer {
+      flex-direction: column;
+      height: auto;
+      justify-content:flex-start;
+    }
+    .find-us-address {
+      font-size: 14pt;
+      line-height: 16pt;
+    }
+    .find-us-footer {
+      font-size: 20pt;
+      font-family: 'Grotesque Black';
+      border-top: 1px solid black;
+      padding-top: 2vh;
+    }
+    .find-us-responsive {
+      display: none;
+    }
+    .vaya-footer-logo {
+      max-width: 150px;
+      height: auto;
+      display: none;
+    }
+    .tet-footer-info {
+      font-size: 10pt;
+      display:none;
+    }
+    .footer1-container {
+      order: 1;
+      margin-left: 0vw;
+    }
+    .footer2 {
+      order: 3;
+      margin-left: 5vw;
+    }
+    .footer3 {
+      order: 2;
+      margin-left: 5vw;
+    }
+    .footer-browse {
+      font-size: 20pt;
+    }
+    
+    
+    .navinfo {
+      display:none;
+    }
+    .tet-social-container {
+      text-align: center;
+      
+    }
+    .socials {
+      padding: 0vh 2vw;
+    }
+    .footer-date-responsive {
+      display: block;
+      text-align: center;
+      font-family: 'Grotesque Black';
+      font-size: 22pt;
+      margin-top: 0;
+    }
+
+
+
   }

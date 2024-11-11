@@ -9,7 +9,7 @@ const Footer = () => {
       <h3 className = 'vaya-footer'>Vietnamese American Youth Alliance</h3>
       <div className = 'tet-logo-container'>
         <a className = 'logo' to = '/'>
-          <img src= 'src\assets\images\sdTết.png' alt="Logo"/>
+          <img src= 'src\assets\images\sdTết.png' alt="Logo" className = 'vaya-footer-logo'/>
         </a>
         <div className = 'navinfo'>
           <div className = 'navdate'>
@@ -21,6 +21,7 @@ const Footer = () => {
         </div>
       </div>
       <h3 className = 'vaya-footer-ny'>Chức mừng năm mới / Happy New Year</h3>
+      <h3 className = 'footer-date-responsive'>JAN 31 - FEB 2</h3>
       <div className = 'tet-social-container'>
         <a className = 'socials' to = '/'>
           <img src= 'src\assets\images\mdi_instagram.png' alt="Instagram Logo"/>
@@ -46,9 +47,9 @@ const Footer = () => {
     
     </div>
     <div className = 'footer3'>
-      <h3 className = 'footer-browse'>Find Us</h3>
+      <h3 className = 'footer-browse find-us-responsive'>Find Us</h3>
       <p className = 'find-us-footer'>Venue Address</p>
-      <p className = 'find-us-address'>8575 New Salem St.<br></br>San Diego, CA 92126</p>
+      <p className = 'find-us-address'>2455 Cushing Rd<br></br>San Diego, CA 92106</p>
     </div>
   </footer>
         </>

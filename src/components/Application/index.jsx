@@ -30,13 +30,13 @@ const Application = () => {
             </div> 
         </section>
         <section className = 'vendor-map-app-section'>
-            <h1 className = 'vendor-header h1-font'>VENDOR MAP</h1>
+            <h1 className = 'vendor-header h1-font'>2024 VENDOR MAP</h1>
             <div className = 'vendormap-container'>
                 <img src = {vendormap} className = 'vendormap'></img>
             </div>
         </section>
         <section className = 'vendor-rules-section'>
-            <h1 className = 'vendor-header h1-font'>VENDOR RULES</h1>
+            <h1 className = 'vendor-header h1-font'>2024 VENDOR RULES</h1>
             <div className = 'toggle-container'>
                 <div className="toggle-switch" >
                 

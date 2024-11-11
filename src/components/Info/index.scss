@@ -233,8 +233,9 @@
 .highlights-container {
     display: flex;
     margin-left: 11.1vw;
-    margin-right:8.8vw;
+    margin-right:12.3vw;
     padding-bottom: 2em;
+    justify-content: space-between;
 }
 
 .card-h2 {
@@ -436,11 +437,13 @@ a {
 
     .performance {
         font-size: 21pt;
+        margin-top: 0;
     }
     .performances {
         padding-right: 3vw;
+        
     }
-    .miss-vietnam {
+    .miss-vietnamh2 {
         padding-right: 3vw;
         font-size: 21pt;
     }
@@ -452,6 +455,7 @@ a {
     }
     .vendor {
         font-size: 21pt;
+        margin-top: 0;
     }
     .vendors2{
         padding-right: 1vw;
@@ -514,7 +518,7 @@ a {
     .performances {
         padding-right: 2vw;
     }
-    .miss-vietnam {
+    .miss-vietnamh2 {
         padding-right: 3vw;
         font-size: 21pt;
     }
@@ -683,7 +687,7 @@ a {
     .performances {
         padding-right: 1vw;
     }
-    .miss-vietnam {
+    .miss-vietnamh2 {
         padding-right: 1.5vw;
         font-size: 18pt;
     }

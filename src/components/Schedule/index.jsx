@@ -35,7 +35,7 @@ const Schedule = () => {
                     <h3 className = 'headliner-key-header key-header'>Headliners</h3>
                 </div>
             </div>
-            <h2 className = 'performance-location'>LOCATION OF PERFORMANCES</h2>
+            <h2 className = 'performance-location'>LOCATION OF PERFORMANCES TBD</h2>
             <img src = {schedulemap} width='60%' height = 'auto' className = 'schedulemap'></img>
         </section>
 

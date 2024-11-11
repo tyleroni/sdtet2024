@@ -46,7 +46,7 @@ const Vendors = () => {
             </div>         
         </section>
         <section className = 'vendor-map-section'>
-            <h1 className = 'vendor-header h1-font'>VENDOR MAP</h1>
+            <h1 className = 'vendor-header h1-font'>2024 VENDOR MAP</h1>
             <div className = 'vendormap-container'>
                 <img src = {vendormap} className = 'vendormap'></img>
             </div>

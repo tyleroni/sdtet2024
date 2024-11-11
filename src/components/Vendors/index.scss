@@ -42,7 +42,8 @@
     margin-top: 6vh;
     margin-left: 4vw;
     margin-bottom: 2vh;
-    padding: .6em 1.5em;
+    padding: 0.8em 1.5em;
+    
     border-radius: 25pt;
     font-family: 'Grotesque Black';
     font-size: 22pt;
@@ -82,6 +83,7 @@
 
 .activity-card{
     width: 25%;
+    text-align: center;
 }
 
 
@@ -119,11 +121,13 @@
     padding-top: 8vh;
     padding-bottom: 5vh;
     background-color: #FBC33C;
+    display:none;
 }
 
 .vendorlist {
     width:50%;
 }
+
 
 @media screen and (min-width: 2040px){
     .vendorheader {
