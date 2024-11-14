@@ -19,11 +19,11 @@ const Footer = () => {
                 <p className="tet-footer-info">JAN 31 - FEB 2</p>
               </div>
               <div className="navlocation">
-                <p className="tet-footer-info">NTC PARK - LIBERTY PARK</p>
+                <p className="tet-footer-info">NTC PARK - LIBERTY STATION</p>
               </div>
             </div>
           </div>
-          <h3 className="vaya-footer-ny">Chức mừng năm mới / Happy New Year</h3>
+          <h3 className="vaya-footer-ny">Chức Mừng Năm Mới / Happy New Year</h3>
           <h3 className="footer-date-responsive">JAN 31 - FEB 2</h3>
           <div className="tet-social-container">
             <a className="socials" to="/">
